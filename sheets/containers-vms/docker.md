@@ -1,4 +1,4 @@
-# Docker commands
+# Docker cheatsheet
 
 ## Build
 ```bash
