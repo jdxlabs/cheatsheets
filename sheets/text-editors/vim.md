@@ -2,8 +2,8 @@
 
 ## Shortcut List
 
-<sortable 1>
-^command ^ shortcut ^ shortcut 2 ^
+| command | shortcut | shortcut 2 |
+| ------- | -------- | ---------- |
 | BufferList | F1 | |
 | Show File Explorer (NerdTree) | F3 | |
 | Show function explorer (TagList) | F4 | |
@@ -61,8 +61,6 @@
 | Move word by word to the right | w | Ctrl+right |
 | Move left word by word | b | Ctrl+left |
 | Switch to last used buffer | :b# | |
-
-</sortable>
 
 ## Configuration
 

@@ -1,6 +1,7 @@
 # Regular expressions
 
-^Symbol ^Description ^
+| Symbol | Description |
+| ------ | ----------- |
 |# |start - end (we define a special character to put options behind, can also be: ', /, etc.) |
 |%%^%% |indicates the beginning of a string |
 |$ |indicates the end of a string |
