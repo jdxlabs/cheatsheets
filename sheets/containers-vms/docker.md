@@ -84,5 +84,5 @@ docker system prune -f
 ```
 
 ## Usefull links
-  * [[http://blog.arungupta.me/docker-common-commands-cheatsheet-techtip59/|Docker Common Commands Cheatsheet (Tech Tip #59)]]
-  * [[https://docker-curriculum.com/|A Docker tutorial for beginners]]
+- [Docker CLI cheatsheet](https://devhints.io/docker)
+- [A Docker tutorial for beginners](https://docker-curriculum.com/)
