@@ -4,13 +4,13 @@ My Cheatsheets
 
 ## Contents
 
-- [Cloud](cloud)
-- [Containers & VMs](containers-vms)
-- [Databases](databases)
-- [Development](dev)
-- [os & Configuration](os-config)
-- [Sys Admin](sysadmin)
-- [Text Editors](text-editors)
+- [Cloud](sheets/cloud)
+- [Containers & VMs](sheets/containers-vms)
+- [Databases](sheets/databases)
+- [Development](sheets/dev)
+- [os & Configuration](sheets/os-config)
+- [Sys Admin](sheets/sysadmin)
+- [Text Editors](sheets/text-editors)
 
 ## Contributing
 
