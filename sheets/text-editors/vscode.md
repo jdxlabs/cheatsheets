@@ -4,13 +4,13 @@
 You can set all SublimeText shortcuts with [[https://marketplace.visualstudio.com/items?itemName=ms-vscode.sublime-keybindings|the Keymap extension]].
 They are listed on [[https://jdxlabs.com/notes/sublime-text|my Sublime text shortcuts page]]
 
-| Command | Shortcut | Shortcut 2 |
-| ------- | -------- | ---------- |
-| Column selection                                        | Ctrl + Shift + Left clic      |             |
-| Open terminal                                           | Ctrl + Alt + t    |             |
-| Open a new project                                      | Ctrl + Shift + n, then Ctrl + k, Ctrl + o         |             
-| JSON Prettify                                      | Ctrl + Alt + m         |             
-| JSON Minify                                        | Alt + m         |             
+| Command | Shortcut |
+| ------- | -------- |
+| Column selection    | Ctrl + Shift + Left clic      |
+| Open terminal       | Ctrl + Alt + t    |
+| Open a new project  | Ctrl + Shift + n, then Ctrl + k, Ctrl + o         |
+| JSON Prettify       | Ctrl + Alt + m         |
+| JSON Minify         | Alt + m         |
 
 ## Some extensions
   * [[https://marketplace.visualstudio.com/items?itemName=shardulm94.trailing-spaces|Trailing Spaces]]
