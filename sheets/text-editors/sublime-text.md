@@ -1,8 +1,8 @@
 # Sublime Text 3
 
 ## Shortcuts
-<sortable 1>
-^command ^ shortcut ^ shortcut 2 ^
+| Command | Shortcut | Shortcut 2 |
+| ------- | -------- | ---------- |
 | Next file | Ctrl+PageUp | |
 | Previous file | Ctrl+PageDown | |
 | Next file in history | Ctrl+Tab | |
@@ -28,7 +28,6 @@
 | File list | CTRL+p | |
 | Shortcut list | Ctrl+Shift+p | |
 | List functions | CTRL+r | |
-</sortable>
 
 ## Install packages
 To install and manage its packages, it is recommended to [[http://wbond.net/sublime_packages/package_control/installation|install Package Control]].

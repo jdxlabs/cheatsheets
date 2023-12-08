@@ -9,15 +9,23 @@ ssh-keygen -t ed25519
 ```
 
 ## Copy the public key on a distant server
-```bashssh-copy-id -i ~/.ssh/id_rsa.pub user@server```
+```bash
+ssh-copy-id -i ~/.ssh/id_rsa.pub user@server
+```
 
 ## Remove all keys belonging to hostname from a known_hosts file
-```bashssh-keygen -R hostname```
+```bash
+ssh-keygen -R hostname
+```
 
 ## SSH : Copy file
-```bashscp [name@server:][FROM] [name@server:][TO]```
+```bash
+scp [name@server:][FROM] [name@server:][TO]
+```
 
 ## SSH : Copy directory
-```bashscp -rp [name@server:][FROM] [name@server:][TO]```
+```bash
+scp -rp [name@server:][FROM] [name@server:][TO]
+```
 
 

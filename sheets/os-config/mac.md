@@ -4,8 +4,8 @@
 You can find a list of tools to work under Mac OS X on the [[software-equivalents|Software equivalents]] page.
 
 ## Keyboard shortcuts for Macbook Pro
-<sortable 1>
-^Action                     ^ raccourci    ^
+| Action                     | Shortcut    |
+| -------------------------- | ----------- |
 |Finder : Go to                                  |⌘ + ⇧ + g      |
 |Finder : Show hidden files                      |⌘ + ⇧ + .      |
 |Finder : Show file infos                        |⌘ + i           |
@@ -23,7 +23,6 @@ You can find a list of tools to work under Mac OS X on the [[software-equivalent
 |Keyboard : End                                  |fn + right      |
 |Screen capture                                  |⌘ + ⇧ + 3      |
 |Screen capture with selection                   |⌘ + ⇧ + 4      |
-</sortable>
 
 ## Legend for mac shortcuts
   * Command ⌘

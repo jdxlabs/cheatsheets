@@ -1,8 +1,8 @@
 # Tmux
 
 ## Shortcuts
-<sortable 0>
-^action                                                ^ command ^
+| Action                                                | Command |
+| ----------------------------------------------------- | ------- |
 | Open a new session                | tmux              |
 | Rename current session                | CTRL+b ,              |
 | Vertical split                | CTRL+b "              |
@@ -18,7 +18,6 @@
 | Toggle pane zoom                | CTRL+b z              |
 | Enter copy mode and scroll one page up                | CTRL+b PgUp              |
 | Kill the current pane                | CTRL+b x              |
-</sortable>
 
 ## Usefull links
   * [[https://tmuxcheatsheet.com/|Tmux Cheat Sheet & Quick Reference]]

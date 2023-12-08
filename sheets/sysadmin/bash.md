@@ -16,10 +16,14 @@ du -chs *
 ```
 
 ## Find largest directories in current path
-```bashdu -ck | sort -nr | head -n 10```
+```bash
+du -ck | sort -nr | head -n 10
+```
 
 ## Get working path
-```bashpwd```
+```bash
+pwd
+```
 
 ## Get system infos
 ```bash
@@ -28,7 +32,9 @@ lsb_release -a
 ```
 
 ## Grep search
-```bashgrep -ril mot_a_chercher .```
+```bash
+grep -ril mot_a_chercher .
+```
 
 ## Restart a service
 ```bash
@@ -39,25 +45,39 @@ apache2ctl restart
 ```
 
 ## Delete files older than 30 days, in the current folder
-```bashfind . -maxdepth 1 -ctime +29 -exec rm {} \;```
+```bash
+find . -maxdepth 1 -ctime +29 -exec rm {} \;
+```
 
 ## Delete ".svn" folders, from current path
-```bashfind . -name ".svn" -type d -exec rm -rf {} \;```
+```bash
+find . -name ".svn" -type d -exec rm -rf {} \;
+```
 
 ## Get "png" files, from current path
-```bashfind . -iname '*.png'```
+```bash
+find . -iname '*.png'
+```
 
 ## Count nb of files, in the current path
-```bashfind . -type f | wc -l```
+```bash
+find . -type f | wc -l
+```
 
 ## Search a term in a serie of files
-```bashgrep -nri (my_term) ~/logs_*```
+```bash
+grep -nri (my_term) ~/logs_*
+```
 
 ## Compress dir
-```bashtar -zcvf tar-archive-name.tar.gz source-folder-name```
+```bash
+tar -zcvf tar-archive-name.tar.gz source-folder-name
+```
 
 ## Uncompress dir
-```bashtar -zxvf tar-archive-name.tar.gz source-folder-name```
+```bash
+tar -zxvf tar-archive-name.tar.gz source-folder-name
+```
 
 ## Anacron (daily)
 ```bash

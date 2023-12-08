@@ -1,7 +1,9 @@
 # Bash commands focused on system health
 
 ## Interactive process viewer
-```bashhtop```
+```bash
+htop
+```
 
 ## Show connected hard drives
 ```bash

@@ -2,7 +2,7 @@
 
 ## Shortcut List
 
-| command | shortcut | shortcut 2 |
+| Command | Shortcut | Shortcut 2 |
 | ------- | -------- | ---------- |
 | BufferList | F1 | |
 | Show File Explorer (NerdTree) | F3 | |
@@ -68,13 +68,12 @@ I made a configuration with some plugins, [[https://github.com/jdxlabs/config-vi
 
 ## List of commands
 
-<sortable 1>
-^command ^ command ^ command 2 ^
+| Action  | Command | Command 2 |
+| ------- | -------- | ---------- |
 | Enable/Disable Word Wrap | :set wrap | :set nowrap |
 | Change file encoding | :set fileencoding=... | |
 | Change file format | :set fileformat=... | |
 | Plugin: Buffer Explorer | , be | |
-</sortable>
 
 
 ## Vertical Selection Tip
