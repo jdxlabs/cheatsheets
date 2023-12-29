@@ -1,8 +1,9 @@
-# AWS
+# AWS Tips
 
 
+## EKS
 
-## EKS cluster
+### Create an EKS cluster
 
 EKS doc : https://docs.aws.amazon.com/eks/latest/userguide/getting-started.html
 
@@ -19,7 +20,8 @@ aws eks --region eu-west-1 update-kubeconfig --name eks1
 eksctl delete cluster --name eks1 --region eu-west-1
 ```
 
-## Some configuration tips on AWS
+
+## S3
 
 ### Get the total size of a S3 Bucket
 ```bash
@@ -36,6 +38,9 @@ aws cloudwatch get-metric-statistics --namespace AWS/S3 \
   | jq -r '.Datapoints[0].Average' \
   | awk '{total+=$0} END{print "total =",int(total/1024/1024)," MB"}'
 ```
+
+
+## EC2
 
 ### Get Userdata script associated to the current EC2
 ```bash
@@ -65,16 +70,6 @@ aws ec2 describe-instances \
   --filters Name=tag:Name,Values='myprefix*' Name=instance-state-name,Values=running
 ```
 
-### Get the current account id
-```bash
-aws sts get-caller-identity --output text --query 'Account'
-```
-
-### Get the available engines versions provisioned on RDS
-```bash
-aws rds describe-db-engine-versions --engine aurora-postgresql --query 'DBEngineVersions[?contains(SupportedEngineModes,`provisioned`)].EngineVersion'
-```
-
 ### Get the available Debian AMIs
 ```bash
 aws ec2 describe-images \
@@ -89,3 +84,24 @@ aws ec2 describe-security-groups \
   --query 'SecurityGroups[*].[GroupName, IpPermissions[*], IpPermissionsEgress[*]]' \
   --filters Name=tag:Name,Values='my-env*' > sgs_my-env.json
 ```
+
+
+## STS
+
+### Get the current account id
+```bash
+aws sts get-caller-identity --output text --query 'Account'
+```
+
+
+## RDS
+
+### Get the available engines versions provisioned on RDS
+```bash
+aws rds describe-db-engine-versions --engine aurora-postgresql --query 'DBEngineVersions[?contains(SupportedEngineModes,`provisioned`)].EngineVersion'
+```
+
+
+## Usefull links
+* [AWS Documentation](https://docs.aws.amazon.com/)
+* [AWS IAM Reference](https://iam.cloudonaut.io/)
