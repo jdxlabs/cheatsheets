@@ -1,5 +1,6 @@
 # CloudFormation commands
 
+
 ## To configure your AWS account
 ```bash
 aws configure --profile <my-profile>
@@ -59,3 +60,6 @@ watch -n1 "aws cloudformation describe-stacks --stack-name <my-stack> | jq '.Sta
 aws cloudformation delete-stack --stack-name <my-stack>
 ```
 
+## Usefull links
+* [CloudFormation Documentation](https://docs.aws.amazon.com/cloudformation/)
+* [Troposphere - Python library to create AWS CloudFormation descriptions](https://github.com/cloudtools/troposphere)
