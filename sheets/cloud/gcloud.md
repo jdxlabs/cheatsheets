@@ -35,6 +35,9 @@ gcloud cheat-sheet
 
 List storages
 ```bash
+gcloud storage ls
+
+# or
 gsutil ls
 ```
 
