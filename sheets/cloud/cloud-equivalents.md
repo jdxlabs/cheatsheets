@@ -8,7 +8,7 @@
 | PaaS | AWS Lambda, AWS Fargate, AWS App Runner | App Engine | Azure App Service |
 | Managed Kubernetes | EKS | GKE | AKS |
 | Containers without infra | AWS App Runner, AWS Fargate | Cloud Run | Azure Container Apps/Instance |
-| Hybrid Container | AWS EKS AnyWhere | GKE Enterprise (Anthos) | Azure Arc |
+| Hybrid Container | AWS EKS AnyWhere | Anthos, GKE Enterprise | Azure Arc |
 | Platform for rapid creation of web and mobile applications | AWS Amplify | Firebase | Visual Studio App Center |
 | FaaS | AWS Lambda | Cloud Functions | Azure Functions Serverless Compute |
 | File Object storage | AWS Simple Storage Service (S3) | Cloud Storage (GCS) | Azure Blob Storage |
