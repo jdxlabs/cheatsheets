@@ -6,7 +6,7 @@
 | Nb of services | 200 | 60 | 100 |
 | Compute / VMs | Elastic Cloud Compute (EC2) | Google Compute Engine | Azure Virtual Machines |
 | Managed Kubernetes | EKS | GKE | AKS |
-| PaaS | AWS Beanstalk | App Engine | Azure App Service |
+| PaaS | AWS Elastic Beanstalk | App Engine | Azure App Service |
 | Containers without infrastruce | AWS AppRunner, AWS Fargate | Cloud Run | Azure Container Apps/Instance |
 | Hybrid Container | AWS EKS AnyWhere | Anthos, GKE Enterprise | Azure Arc |
 | Platform for rapid creation of web and mobile applications | AWS Amplify | Firebase | Visual Studio App Center |
