@@ -4,136 +4,40 @@
 | Description | AWS | GCP | Azure |
 | ----------- | ------- | --- | ----- |
 | Nb of services | 200 | 60 | 100 |
-| VMs | EC2 | GCE |  |
-|  |  | App Engine |  |
-| FaaS | Lambda | Cloud Functions |  |
-|  |  | Cloud Run |  |
+| Compute / VMs | Elastic Cloud Compute (EC2) | Google Compute Engine | Azure Virtual Machines |
+| PaaS | AWS Lambda, AWS Fargate, AWS App Runner | App Engine | Azure App Service |
 | Managed Kubernetes | EKS | GKE | AKS |
-|  |  | Cloud SQL |  |
-|  |  | Datastore |  |
-| Identity management | IAM | IAM |  |
-| File Object storage | S3 | GCS |  |
-|  |  | BigQuery |  |
-|  |  | DataProc |  |
-| Platform for rapid creation of web and mobile applications | Amplify | Firebase |  |
-| IaC Tool | CloudFormation | Cloud Deployment Manager | ? |
+| Containers without infra | AWS App Runner, AWS Fargate | Cloud Run | Azure Container Apps/Instance |
+| Platform for rapid creation of web and mobile applications | AWS Amplify | Firebase | Visual Studio App Center |
+| FaaS | AWS Lambda | Cloud Functions | Azure Functions Serverless Compute |
+| Stream data processing | AWS Kinesis | Dataflow | Azure Stream Analytics |
+| Stream data ingest | AWS Kinesis | Pub/Sub | Azure Events Hubs |
 | Data storage | Athena, Redshift | BigQuery | Azure Synapse Analytics |
+| Query Service | Amazon Redshift Spectrum | BigQuery | Azure Synapse Analytics |
+| Data workflow orchestration | Amazon Data Pipeline, AWS Glue | Cloud Composer | Azure Data Factory |
+| Data processing | AWS Elastic MapReduce (EMR) | DataProc | Azure Data Lake Analytics, HDInsight |
 | Messaging | SNS, SQS | Pub/Sub | Azure Service Bus Messaging |
-|  |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
-
-
-
-------------------
-
-
-
-
-
-
-Service de requête
-BigQuery
-Amazon Redshift Spectrum
-Azure Synapse Analytics
-
-Ingestion de données par flux
-Pub/Sub
-Amazon Kinesis
-Azure Event Hubs
-
-Traitement de données par flux
-Dataflow
-Amazon Kinesis
-Azure Stream Analytics
-
-Orchestration des workflows
-Cloud Composer
-Amazon Data Pipeline, AWS Glue, Managed Workflows for Apache Airflow
-Azure Data Factory
-
-Stockage de données de document
-Firestore
-Amazon DocumentDB, AWS DynamoDB, AWS AppSync
-Azure Cosmos DB
-
-Stockage de données en mémoire
-Memorystore
-Amazon ElastiCache
-Azure Cache
-
-FaaS
-Cloud Functions
-AWS Lambda
-Azure Functions Serverless Compute
-
-PaaS
-App Engine
-Azure App Service
-Azure App Service
-
-Migration de bases de données SQL
-Database Migration Service
-AWS Database Migration Service
-Azure Database Migration Service
-
-CDN
-Cloud CDN
-Amazon CloudFront
-Azure Content Delivery Network
-
-Domaines et DNS
-Cloud Domains
-Amazon Route 53
-Azure App Service
-
-Sécurité du réseau
-Cloud VPN
-Réseau privé virtuel (VPN) AWS
-Réseau privé virtuel (VPN) Azure
-
-CI/CD
-Cloud Build
-AWS CodeBuild, AWS CodeDeploy, AWS CodePipeline
-Azure DevOps, GitHub Enterprise
-
----
-Les services comprennent :
-
-Compute Engine : un service d’instance de machine virtuelle. 
-App Engine : une plateforme permettant de créer des applications web évolutives et des backends mobiles. 
-Google Kubernetes Engine : un service permettant d’exécuter des applications conteneurisées basées sur le projet open source Docker. 
-Cloud Functions : une plateforme de calcul sans serveur pilotée par les événements. 
-Cloud Dataflow : un service entièrement géré pour transformer et enrichir les big data en mode batch ou stream (continu) 
-BigQuery : un entrepôt de données d’entreprise pour le stockage et l’interrogation de jeux de données massifs. 
-Cloud Dataproc : un service hébergé Hadoop MapReduce et Spark avec planification des tâches et gestion des ressources. 
-Cloud Pub/Sub : un service de messagerie en temps réel qui vous permet d’envoyer et de recevoir des messages entre des applications indépendantes. 
-Cloud Storage : service de stockage d’objets conçu pour stocker des ensembles de données volumineux et non structurés tels que des images, des fichiers audio et vidéo et des fichiers journaux.
-
-------------------
+| Stream data ingestion | Amazon Kinesis | Pub/Sub | Azure Event Hubs |
+| File Object storage | AWS Simple Storage Service (S3) | Cloud Storage (GCS) | Azure Blob Storage |
+| Relational Database | AWS Relational Database Service (RDS), Aurora | Cloud SQL | Azure Database for MySQL/PostgreSQL |
+| NoSQL | AWS DynamoDB, AWS Document DB | Datastore | Azure Cosmos DB |
+| Identity and Access Management | IAM | IAM | Azure Active Directory External Identities |
+| IaC Deployment | CloudFormation, CDK | Cloud Deployment Manager | Azure Deployment Manager |
+| API Management | AWS API Gateway, AWS Publisher Service | API Gateway, Apigee API Management | Azure API Management |
+| Cost Management | AWS Cost Explorer, AWS Budgets | Cost Management | Azure Cost Management |
+| Logging | CloudWatch Logs | Cloud Logging | Azure Monitoring Logs |
+| Monitoring | CloudWatch | Cloud Monitoring | Azure Monitoring |
+| Audit logs | AWS CloudTrail | Cloud Audit Logs | Azure Audit Logs |
+| Tracing | AWS X-Ray | Cloud Trace | Azure Monitor Application Insights Distributed Tracing |
+| Document data storage | Amazon DocumentDB, AWS DynamoDB, AWS AppSync | Firestore | Azure Cosmos DB |
+| In-Memory Data Storage | Amazon ElastiCache | Memorystore | Azure Cache |
+| SQL database migration | AWS Database Migration Service | Database Migration Service | Azure Database Migration Service |
+| CDN | Amazon CloudFront | Cloud CDN | Azure Content Delivery Network |
+| Domains and DNS | Amazon Route 53 | Cloud Domains | Azure App Service |
+| Network Security | AWS Virtual Private Network (VPN) | Cloud VPN | Azure Virtual Private Network (VPN) |
+| CI/CD | AWS CodeBuild, AWS CodeDeploy, AWS CodePipeline | Cloud Build | Azure DevOps, GitHub Enterprise |
+| CIAM | AWS Cognito | Identity Platform | Azure Active Directory B2C |
+| Trusted cloud (for France) | partnership with Atos | S3NS (by Thales) | Bleu (by Capgemini & Orange) |
 
 ## Usefull links
 * [AWS services](https://aws.amazon.com/?nc1=h_ls)
