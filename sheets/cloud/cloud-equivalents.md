@@ -26,6 +26,7 @@
 | Domains and DNS | Amazon Route 53 | Cloud Domains | Azure App Service |
 | Network Security | AWS Virtual Private Network (VPN) | Cloud VPN | Azure Virtual Private Network (VPN) |
 | Messaging | SNS, SQS | Pub/Sub | Azure Service Bus Messaging |
+| Asynchronous service requests | AWS EventBridge, AWS Notification Service (SNS) | Cloud Tasks | Azure Service Bus, Azure Storage Queues |
 | Data storage | Athena, Redshift | BigQuery | Azure Synapse Analytics |
 | Query Service | Amazon Redshift Spectrum | BigQuery | Azure Synapse Analytics |
 | Stream data processing | AWS Kinesis | Dataflow | Azure Stream Analytics |
