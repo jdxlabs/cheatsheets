@@ -5,9 +5,9 @@
 | ----------- | ------- | --- | ----- |
 | Nb of services | 200 | 60 | 100 |
 | Compute / VMs | Elastic Cloud Compute (EC2) | Google Compute Engine | Azure Virtual Machines |
-| PaaS | AWS Lambda, AWS Fargate, AWS App Runner | App Engine | Azure App Service |
 | Managed Kubernetes | EKS | GKE | AKS |
-| Containers without infra | AWS App Runner, AWS Fargate | Cloud Run | Azure Container Apps/Instance |
+| PaaS | AWS Beanstalk | App Engine | Azure App Service |
+| Containers without infrastruce | AWS AppRunner, AWS Fargate | Cloud Run | Azure Container Apps/Instance |
 | Hybrid Container | AWS EKS AnyWhere | Anthos, GKE Enterprise | Azure Arc |
 | Platform for rapid creation of web and mobile applications | AWS Amplify | Firebase | Visual Studio App Center |
 | FaaS | AWS Lambda | Cloud Functions | Azure Functions Serverless Compute |
