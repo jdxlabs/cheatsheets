@@ -25,6 +25,7 @@
 | CDN | Amazon CloudFront | Cloud CDN | Azure Content Delivery Network |
 | Domains and DNS | Amazon Route 53 | Cloud Domains | Azure App Service |
 | Network Security | AWS Virtual Private Network (VPN) | Cloud VPN | Azure Virtual Private Network (VPN) |
+| Private Link | AWS Private Link | Private Service Connect | Azure Private Link |
 | Messaging | SNS, SQS | Pub/Sub | Azure Service Bus Messaging |
 | Asynchronous service requests | AWS EventBridge, AWS Notification Service (SNS) | Cloud Tasks | Azure Service Bus, Azure Storage Queues |
 | Data storage | Athena, Redshift | BigQuery | Azure Synapse Analytics |
@@ -33,7 +34,6 @@
 | Stream data ingest | AWS Kinesis | Pub/Sub | Azure Events Hubs |
 | Data workflow orchestration | Amazon Data Pipeline, AWS Glue | Cloud Composer | Azure Data Factory |
 | Data processing | AWS Elastic MapReduce (EMR) | DataProc | Azure Data Lake Analytics, HDInsight |
-| Stream data ingestion | Amazon Kinesis | Pub/Sub | Azure Event Hubs |
 | Identity and Access Management | IAM | IAM | Azure Active Directory External Identities |
 | CIAM | AWS Cognito | Identity Platform | Azure Active Directory B2C |
 | Config Management | AWS System Manager | Anthos Config Management | Azure App Configuration |
