@@ -12,9 +12,9 @@
 | Platform for rapid creation of web and mobile applications | AWS Amplify | Firebase | Visual Studio App Center |
 | FaaS | AWS Lambda | Cloud Functions | Azure Functions Serverless Compute |
 | File Object storage | AWS Simple Storage Service (S3) | Cloud Storage (GCS) | Azure Blob Storage |
-| Relational Database | AWS Relational Database Service (RDS), Aurora | Cloud SQL | Azure Database for MySQL/PostgreSQL |
+| Relational Database | AWS Relational Database Service (RDS), Aurora | Cloud SQL, Cloud Spanner | Azure Database for MySQL/PostgreSQL |
 | SQL database migration | AWS Database Migration Service | Database Migration Service | Azure Database Migration Service |
-| NoSQL | AWS DynamoDB, AWS DocumentDB | Datastore, Firestore | Azure Cosmos DB |
+| NoSQL | AWS DynamoDB, AWS DocumentDB | Datastore, Firestore, Cloud Bigtable | Azure Cosmos DB |
 | In-Memory Data Storage | Amazon ElastiCache | Memorystore | Azure Cache |
 | API Management | AWS API Gateway, AWS Publisher Service | API Gateway, Apigee API Management | Azure API Management |
 | Cost Management | AWS Cost Explorer, AWS Budgets | Cost Management | Azure Cost Management |
@@ -24,8 +24,19 @@
 | Tracing | AWS X-Ray | Cloud Trace | Azure Monitor Application Insights Distributed Tracing |
 | CDN | Amazon CloudFront | Cloud CDN | Azure Content Delivery Network |
 | Domains and DNS | Amazon Route 53 | Cloud Domains | Azure App Service |
+| Virtual Private Cloud | AWS VPC | VPC | Azure Virtual Network |
+| NAT gateway | AWS NAT gateway | Cloud NAT | Azure NAT Gateway |
+| Firewall | Security Group | Cloud Firewall | Azure Firewall |
+| Web Application Firewall | AWS WAF | Google Cloud Armor | Azure Firewall |
+| DDoS Protection | AWS Shield | Google Cloud Armor Managed Protection Plus | Azure DDoS Protection |
+| Load Balancer | Elastic Load Balancer (ELB) | Cloud Load Balancing | Azure Load Balancer |
+| Direct Connect | AWS Direct Connect | Cloud Interconnect | Azure ExpressRoute |
 | Network Security | AWS Virtual Private Network (VPN) | Cloud VPN | Azure Virtual Private Network (VPN) |
-| Private Link | AWS Private Link | Private Service Connect | Azure Private Link |
+| Private Link | AWS Private Link | Private Service Connect, VPC Service Controls | Azure Private Link |
+| Autoscaling | AWS EC2 Autoscaling | Compute Engine Autoscaler | Azure Autoscale, Azure Virtual Machine Scale Sets |
+| Block storage for VMs | Amazon Elastic Block Store (EBS) | Persistent Disk | Azure Managed Disks |
+| Managed NFS Server | AWS Elastic File System (EFS) | Filestore | Azure Files |
+| Infrequent access object storage | AWS S3 Glacier | Cloud Storage Archive | Azure Archive Storage |
 | Messaging | SNS, SQS | Pub/Sub | Azure Service Bus Messaging |
 | Asynchronous service requests | AWS EventBridge, AWS Notification Service (SNS) | Cloud Tasks | Azure Service Bus, Azure Storage Queues |
 | Data storage | Athena, Redshift | BigQuery | Azure Synapse Analytics |
@@ -34,12 +45,21 @@
 | Stream data ingest | AWS Kinesis | Pub/Sub | Azure Events Hubs |
 | Data workflow orchestration | Amazon Data Pipeline, AWS Glue | Cloud Composer | Azure Data Factory |
 | Data processing | AWS Elastic MapReduce (EMR) | DataProc | Azure Data Lake Analytics, HDInsight |
+| IA & Machine Learning platform | AWS SageMaker | Vertex AI | Azure AI Platform |
+| IA & Machine Learning platform assistant | AWS SageMaker Autopilot | Vertex AI AutoML, Vertex AI custom training | AutoML, Azure Cognitive Services, Azure Machine Learning |
+| Tensorflow | Tensorflow on AWS | TensorFlow Enterprise | Azure Databricks |
 | Identity and Access Management | IAM | IAM | Azure Active Directory External Identities |
 | CIAM | AWS Cognito | Identity Platform | Azure Active Directory B2C |
 | Config Management | AWS System Manager | Anthos Config Management | Azure App Configuration |
+| Security and risk management platform | AWS Guard Duty, AWS Security Hub, AWS Audit Manager, AWS Config | Security Command Center | Microsoft Defender for Cloud |
+| SIEM | AWS Security Lake | Chronicle | Azure Sentinel |
+| Secret management | AWS Secrets Manager, AWS Systems Manager Parameter Store | Secret Manager | Azure Key Vault |
+| Key Management Service | AWS KMS | Cloud KMS | Azure Key Vault |
+| Hardware Security Module | AWS HSM | Cloud HSM | Azure Managed HSM |
 | CI/CD | AWS CodeBuild, AWS CodeDeploy, AWS CodePipeline | Cloud Build | Azure DevOps, GitHub Enterprise |
 | IaC Deployment | CloudFormation, CDK | Cloud Deployment Manager | Azure Deployment Manager |
 | Trusted cloud (for France) | Partnership with Atos | S3NS (by Thales) | Bleu (by Capgemini & Orange) |
+
 
 ## Usefull links
 * [AWS services](https://aws.amazon.com/?nc1=h_ls)
