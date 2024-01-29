@@ -126,6 +126,20 @@ git status
 ```
 
 
+## Tagging
+
+### Create a new tag
+```bash
+git tag 1.0.1
+git push --tags
+```
+
+### Delete a tag (may be useful in some contexts)
+```bash
+git tag -d 1.0.1 && git push origin :refs/tags/1.0.1
+```
+
+
 ## Others
 
 ### View the commit history of a file
