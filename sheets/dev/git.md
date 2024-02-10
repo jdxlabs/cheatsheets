@@ -126,6 +126,20 @@ git status
 ```
 
 
+## Tagging
+
+### Create a new tag
+```bash
+git tag 1.0.1
+git push --tags
+```
+
+### Delete a tag (may be useful in some contexts)
+```bash
+git tag -d 1.0.1 && git push origin :refs/tags/1.0.1
+```
+
+
 ## Others
 
 ### View the commit history of a file
@@ -162,8 +176,7 @@ git check-ignore -v < any_file >
 ```
 
 ## To go further
-   * [[https://learngitbranching.js.org/|Learn git branching]]
-   * [[https://dev.to/unseenwizzard/learn-git-concepts-not-commands-4gjc|Learn git concepts, not commands]]
-   * [[https://google.github.io/eng-practices/review/|Code Review Developer Guide]]
-   * [[https://medium.com/faun/git-submodule-cheatsheet-29a3bfe443c3|Git Submodule Cheatsheet]]
-   * [[git-subtrees|Git SubTrees - An alternative to SubModules]]
+   * [Learn git branching](https://learngitbranching.js.org)
+   * [Learn git concepts, not commands](https://dev.to/unseenwizzard/learn-git-concepts-not-commands-4gjc)
+   * [Code Review Developer Guide](https://google.github.io/eng-practices/review)
+   * [Git Submodule Cheatsheet](https://medium.com/faun/git-submodule-cheatsheet-29a3bfe443c3)
