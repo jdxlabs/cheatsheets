@@ -2,7 +2,7 @@
 
 ## Install
 
-First, install the client (cf. )
+First, install the client
 
 ```bash
 brew install gcloud
@@ -80,4 +80,3 @@ gcloud container clusters delete gke1 --region europe-west1 --project=infra-jdxl
 * [The gcloud CLI cheat sheet](https://cloud.google.com/sdk/docs/cheatsheet?hl=en)
 * [Install the Google Cloud CLI](https://cloud.google.com/sdk/docs/install-sdk?hl=en)
 * [Google Kubernetes Engine (GKE)](https://cloud.google.com/kubernetes-engine?hl=en)
-

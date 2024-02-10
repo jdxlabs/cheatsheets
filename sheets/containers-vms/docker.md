@@ -38,8 +38,10 @@ docker images
 docker rmi --force $(docker images -q)
 or
 docker images -q |xargs docker rmi
+```
 
-# remove all unused images
+## Remove all unused images
+```bash
 docker rmi $(docker images --filter "dangling=true" -q --no-trunc)
 ```
 
@@ -47,8 +49,6 @@ docker rmi $(docker images --filter "dangling=true" -q --no-trunc)
 ```bash
 docker volume rm $(docker volume ls -q --filter dangling=true)
 ```
-
-
 
 ## Run a Python 3 Debian image locally
 ```bash
@@ -76,7 +76,6 @@ mysql -pyolo -uroot -h 127.0.0.1 -P 3306 mydb
 docker run --name elasticsearch -p 127.0.0.1:9200:9200 -d elasticsearch
 docker run --name kibana -e ELASTICSEARCH_URL=http://127.0.0.1:9200 -p 5601:5601 -d kibana:latest
 ```
-
 
 ## Clean up
 ```bash

@@ -38,8 +38,8 @@ kind delete cluster -n kind2
 
 
 ## Links
-  * https://dev.to/jdxlabs/a-local-kubernetes-cluster-in-seconds-with-kind-31lc
-  * https://kind.sigs.k8s.io/docs/user/quick-start/
-  * https://kind.sigs.k8s.io/docs/user/using-wsl2/
-  * https://phoenixnap.com/kb/kubernetes-kind
-  * https://itnext.io/kubernetes-kind-cheat-shee-2605da77984
+* [A local Kubernetes cluster in seconds with Kind](https://dev.to/jdxlabs/a-local-kubernetes-cluster-in-seconds-with-kind-31lc)
+* [Kind - Quick Start](https://kind.sigs.k8s.io/docs/user/quick-start/)
+* [Kind - Using WSL2](https://kind.sigs.k8s.io/docs/user/using-wsl2/)
+* [Guide to Running Kubernetes with Kind](https://phoenixnap.com/kb/kubernetes-kind)
+* [Kubernetes KIND Cheat Sheet](https://itnext.io/kubernetes-kind-cheat-shee-2605da77984)

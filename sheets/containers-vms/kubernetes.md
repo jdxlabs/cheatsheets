@@ -1,22 +1,31 @@
 # Kubernetes
 
 ## Kubectl CheatSheet
+
 ```bash
+# in .bashrc
 alias k='kubectl'
+export f='--force'
+export dry='--dry-run=client'
+export o='-oyaml'
+alias kshow='kubectl config get-contexts'
+alias kx='kubectl config use-context'
+alias kn='kubectl config set-context --current --namespace '
+```
 
+```bash
 k --help
+```
 
-
-# kubectx/ns cmds, for contexts and namespaces
+Kubectx/ns cmds, for contexts and namespaces
+```bash
 kubectx
 kubens
 kubectx -c && kubens -c
+```
 
-=> alias kcontext='echo "cluster : " && kubectx -c && echo "namespace : " && kubens -c'
-
-
-# native cmds, for contexts and namespaces
-
+Native commands, for contexts and namespaces
+```bash
 k config get-contexts
 k config current-context
 k config use-context <selected-context>
@@ -25,12 +34,10 @@ k cluster-info --context <current-context>
 k get namespaces
 k config view --minify | grep namespace:
 k config set-context --current --namespace=<selected-namespace>
+```
 
-=> alias kcontext='echo "cluster : " && kubectl config current-context && echo "namespace : " && kubectl config view --minify | grep namespace:'
-
-
-# cmds on the selected cluster
-
+Commands on the selected cluster
+```bash
 k get nodes -o wide
 
 k get all
@@ -55,36 +62,39 @@ k get secret
 k get secret -A
 k get secret <secret-name> -o yaml
 k create secret generic <secret-name> --from-literal=mykey=myvalue [--from-file=./myfile.txt] -n <my-namespace>
-
 ```
 
 ## Install Minikube and Kubectl to work locally
+
 Follow instructions here :
-  * [[https://kubernetes.io/docs/setup/minikube/|Running Kubernetes Locally via Minikube]]
-  * [[https://kubernetes.io/docs/tasks/tools/install-kubectl/#install-kubectl-on-linux|Install kubectl on Linux]]
+* [Running Kubernetes Locally via Minikube](https://kubernetes.io/docs/setup/minikube)
+* [Install kubectl on Linux](https://kubernetes.io/docs/tasks/tools/install-kubectl/#install-kubectl-on-linux)
 
 Then, you have a VM with Kubernetes installed :
 ```bash
-minikube start # to start the VM
-minikube stop # to stop the VM
-minikube dashboard # to see the K8S Dashboard
-minikube ssh # to connect to the VM with SSH, to see your docker images, etc.
-```
+# Start the VM
+minikube start 
 
-## Other local solutions
-  * [[kind|Kind]]
-  * [[https://github.com/kubernetes/kubeadm|Kubeadm]]
+# Stop the VM
+minikube stop
+
+# Show the K8S Dashboard
+minikube dashboard 
+
+# Connect to the VM with SSH, to see your docker images, etc.
+minikube ssh
+```
+Note : You have a lot of possibilities to install Kubernetes locally (like Kind, KubeADM, etc.).
+
 
 ## Training resources
-  * https://killer.sh/
-  * https://kodekloud.com/
-  * https://github.com/dgkanatsios/CKAD-exercises
+* [Killer.sh](https://killer.sh/)
+* [KodeKloud](https://kodekloud.com/)
+* [CKAD exercises](https://github.com/dgkanatsios/CKAD-exercises)
 
 ## Usefull links
-  * [[http://kubernetes.io/docs/user-guide/kubectl-cheatsheet/|Kubectl Cheat Sheet]]
-  * [[https://dev.to/pragyanatvade/comprehensive-kubernetes-cheatsheet-34gm|Comprehensive Kubernetes Cheat Sheet]]
-  * [[https://www.oreilly.com/library/view/kubernetes-up-and/9781491935668/ch04.html#:~:text=The%20most%20basic%20command%20for,%3E%20.|O.REILLY - Common kubectl Commands]]
-  * https://www.padok.fr/en/blog/minikube-kubeadm-kind-k3s
-  * https://github.com/mmumshad/kubernetes-the-hard-way
-
-
+* [Kubectl Cheat Sheet](http://kubernetes.io/docs/user-guide/kubectl-cheatsheet/)
+* [Comprehensive Kubernetes Cheat Sheet](https://dev.to/pragyanatvade/comprehensive-kubernetes-cheatsheet-34gm)
+* [O.REILLY - Common kubectl Commands](https://www.oreilly.com/library/view/kubernetes-up-and/9781491935668/ch04.html)
+* [Kubeadm vs MiniKube, Kind and K3S](https://www.padok.fr/en/blog/minikube-kubeadm-kind-k3s)
+* [Kubernetes - The hard way](https://github.com/mmumshad/kubernetes-the-hard-way)

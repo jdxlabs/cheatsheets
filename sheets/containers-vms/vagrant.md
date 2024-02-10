@@ -1,6 +1,6 @@
 # Hashicorp Vagrant
 
-Installation
+## Installation
 
 ```bash
 # First, install Virtualbox, then :
@@ -23,11 +23,9 @@ export VAGRANT_WSL_ENABLE_WINDOWS_ACCESS="1"
 /etc/wsl.conf
 [automount]
 options = "metadata"
-
 ```
 
-
-Useful commands
+## Useful commands
 
 ```bash
 vagrant up
@@ -38,5 +36,3 @@ vagrant provision
 vagrant halt
 vagrant destroy -f
 ```
-
-
