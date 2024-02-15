@@ -85,6 +85,18 @@ iptables -L -t nat
 iptables -F -t nat
 ```
 
+## Calculate CIDRs
+
+```bash
+apt install ipcalc
+
+ipcalc -b 244.178.44.111 24
+
+# or
+apt install sipcalc
+sipcalc 244.178.44.111/24
+```
+
 ## Usefull links
   * [[https://gist.github.com/miglen/70765e663c48ae0544da08c07006791f|Linux networking tools]]
   * [[https://twitter.com/icheikhrouhou/status/1133049722384601089|Every Linux networking tool I know]]
