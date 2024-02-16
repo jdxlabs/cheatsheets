@@ -12,10 +12,11 @@
 | Platform for rapid creation of web and mobile applications | AWS Amplify | Firebase | Visual Studio App Center |
 | FaaS | AWS Lambda | Cloud Functions | Azure Functions Serverless Compute |
 | File Object storage | AWS Simple Storage Service (S3) | Cloud Storage (GCS) | Azure Blob Storage |
-| Relational Database | AWS Relational Database Service (RDS), Aurora | Cloud SQL, Cloud Spanner | Azure Database for MySQL/PostgreSQL |
-| SQL database migration | AWS Database Migration Service | Database Migration Service | Azure Database Migration Service |
-| NoSQL | AWS DynamoDB, AWS DocumentDB | Datastore, Firestore, Cloud Bigtable | Azure Cosmos DB |
+| Relational Database | AWS Relational Database Service (RDS), Aurora, Neptune | Cloud SQL, Cloud Spanner, AlloyDB | Azure Database for MySQL/PostgreSQL |
+| SQL database migration | AWS Migration hub | Database Migration Service | Azure Database Migration Service |
+| NoSQL | AWS DynamoDB, AWS DocumentDB | Datastore, Firestore, Bigtable | Azure Cosmos DB |
 | In-Memory Data Storage | Amazon ElastiCache | Memorystore | Azure Cache |
+| Backups | AWS Backup | Cloud Storage Object Versioning and Lifecycle Management | Azure Backup |
 | API Management | AWS API Gateway, AWS Publisher Service | API Gateway, Apigee API Management | Azure API Management |
 | Cost Management | AWS Cost Explorer, AWS Budgets | Cost Management | Azure Cost Management |
 | Logging | CloudWatch Logs | Cloud Logging | Azure Monitoring Logs |
@@ -29,15 +30,16 @@
 | Firewall | Security Group | Cloud Firewall | Azure Firewall |
 | Web Application Firewall | AWS WAF | Google Cloud Armor | Azure Firewall |
 | DDoS Protection | AWS Shield | Google Cloud Armor Managed Protection Plus | Azure DDoS Protection |
-| Load Balancer | Elastic Load Balancer (ELB) | Cloud Load Balancing | Azure Load Balancer |
+| Load Balancer | Elastic Load Balancer (ELB), Global Accelerator | Cloud Load Balancing | Azure Load Balancer |
 | Direct Connect | AWS Direct Connect | Cloud Interconnect | Azure ExpressRoute |
 | Network Security | AWS Virtual Private Network (VPN) | Cloud VPN | Azure Virtual Private Network (VPN) |
 | Private Link | AWS Private Link | Private Service Connect, VPC Service Controls | Azure Private Link |
 | Autoscaling | AWS EC2 Autoscaling | Compute Engine Autoscaler | Azure Autoscale, Azure Virtual Machine Scale Sets |
 | Block storage for VMs | Amazon Elastic Block Store (EBS) | Persistent Disk | Azure Managed Disks |
-| Managed NFS Server | AWS Elastic File System (EFS) | Filestore | Azure Files |
-| Infrequent access object storage | AWS S3 Glacier | Cloud Storage Archive | Azure Archive Storage |
-| Messaging | SNS, SQS | Pub/Sub | Azure Service Bus Messaging |
+| Managed NFS Server | AWS Elastic File System (EFS), FSx | Filestore | Azure Files |
+| Archive storage | AWS S3 Glacier | Cloud Storage Archive | Azure Archive Storage |
+| Storage Transfer | AWS Storage Gateway, DataSync | Cloud Storage Transfer Service | Azure StorSimple |
+| Messaging | SNS, SQS, Amazon MQ | Pub/Sub | Azure Service Bus Messaging |
 | Asynchronous service requests | AWS EventBridge, AWS Notification Service (SNS) | Cloud Tasks | Azure Service Bus, Azure Storage Queues |
 | Data storage | Athena, Redshift | BigQuery | Azure Synapse Analytics |
 | Query Service | Amazon Redshift Spectrum | BigQuery | Azure Synapse Analytics |
@@ -53,10 +55,14 @@
 | Config Management | AWS System Manager | Anthos Config Management | Azure App Configuration |
 | Security and risk management platform | AWS Guard Duty, AWS Security Hub, AWS Audit Manager, AWS Config | Security Command Center | Microsoft Defender for Cloud |
 | SIEM | AWS Security Lake | Chronicle | Azure Sentinel |
+| Security assessment tool | AWS Inspector | Google Cloud Security Command Center (Cloud SCC), Google Cloud Security Scanner | Azure Security Center |
 | Secret management | AWS Secrets Manager, AWS Systems Manager Parameter Store | Secret Manager | Azure Key Vault |
 | Key Management Service | AWS KMS | Cloud KMS | Azure Key Vault |
 | Hardware Security Module | AWS HSM | Cloud HSM | Azure Managed HSM |
+| Certificate Management | AWS Certificate Manager (ACM) | Google Cloud SSL Certificates | Azure Key Vault |
+| Resources management | AWS Organizations, Resource Groups & Tag Editor | Resource Manager | Azure Management Groups |
 | CI/CD | AWS CodeBuild, AWS CodeDeploy, AWS CodePipeline | Cloud Build | Azure DevOps, GitHub Enterprise |
+| IA Companion | Amazon CodeWhisperer, Amazon Q | Duet IA, Gemini | Copilot |
 | IaC Deployment | CloudFormation, CDK | Cloud Deployment Manager | Azure Deployment Manager |
 | Trusted cloud (for France) | Partnership with Atos | S3NS (by Thales) | Bleu (by Capgemini & Orange) |
 
