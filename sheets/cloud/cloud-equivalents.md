@@ -72,4 +72,5 @@
 * [GCP services](https://cloud.google.com/gcp/?hl=en)
 * [Azure services](https://azure.microsoft.com/en-gb)
 * [Quels sont les services proposés par Google Cloud ? (FR)](https://www.group-dis.com/blog/loffre-cloud/quels-sont-les-services-proposes-par-google-cloud)
+* [Google Cloud vs AWS en 2024 (Comparaison des géants) (FR)](https://kinsta.com/fr/blog/google-cloud-vs-aws)
 * [Google Documentation - Compare AWS and Azure services to Google Cloud](https://cloud.google.com/docs/get-started/aws-azure-gcp-service-comparison?hl=en)
