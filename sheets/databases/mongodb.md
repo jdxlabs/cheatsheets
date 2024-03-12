@@ -1,7 +1,5 @@
 # MongoDB
 
-[[http://docs.mongodb.org/manual/reference/sql-comparison|SQL comparison]]
-
 ## Basic commands
 ```bash
 mongo
@@ -43,3 +41,8 @@ brew tap mongodb/brew
 brew install mongodb-database-tools
 ```
 
+## Usefull links
+* [MongoDB Documentation](https://www.mongodb.com/docs/)
+* [MongoDB - SQL comparison](http://docs.mongodb.org/manual/reference/sql-comparison)
+* [MongoDB - Get Started with Atlas](https://www.mongodb.com/docs/atlas/getting-started/)
+* [MongoDB - Cheatsheet](https://www.mongodb.com/developer/products/mongodb/cheat-sheet/)
