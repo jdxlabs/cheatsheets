@@ -1,15 +1,11 @@
 # Kind - Kubernetes in Docker
 
-
 It allows you to have a lightweight local Kubernetes cluster, with clustering basic notions.
-
 You can manage several Kubernetes clusters, very easily.
-
 
 ## Commands
 
 ```bash
-
 brew install kind
 
 
@@ -32,10 +28,7 @@ kind export logs -n kind1
 # You can delete clusters, when you want
 kind delete cluster -n kind1
 kind delete cluster -n kind2
-
-
 ```
-
 
 ## Links
 * [A local Kubernetes cluster in seconds with Kind](https://dev.to/jdxlabs/a-local-kubernetes-cluster-in-seconds-with-kind-31lc)
