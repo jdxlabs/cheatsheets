@@ -20,6 +20,6 @@
 | Kill the current pane                | CTRL+b x              |
 
 ## Usefull links
-  * [[https://tmuxcheatsheet.com/|Tmux Cheat Sheet & Quick Reference]]
-  * [[https://wiki.debian.org/fr/Tmux|Tmux - Debian wiki]]
-  * [[https://kapeli.com/cheat_sheets/tmux.docset/Contents/Resources/Documents/index|tmux Cheat Sheet - Kapeli]]
+* [Tmux CheatSheet](https://tmuxcheatsheet.com)
+* [Tmux CheatSheet - Kapeli](https://kapeli.com/cheat_sheets/tmux.docset/Contents/Resources/Documents/index)
+* [Tmux - Debian wiki (FR)](https://wiki.debian.org/fr/Tmux)

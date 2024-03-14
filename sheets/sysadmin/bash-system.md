@@ -11,6 +11,7 @@ df -hT
 ```
 
 ## Monitor USB Transfert Rate
+
 ### Read
 ```bash
 sudo hdparm -Tt /dev/sdc1

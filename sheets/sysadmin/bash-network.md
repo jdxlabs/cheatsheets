@@ -1,6 +1,7 @@
 # Bash commands focused on network
 
 ## Install network tools
+
 ### Debian
 ```bash
 apt install -y iputils-ping # for ping
@@ -31,7 +32,6 @@ dig <any_url>
 netstat -ntpul
 ```
 
-
 ## Show listening ports & processes on a machine
 ```bash
 lsof -i -P -n
@@ -45,8 +45,8 @@ nc localhost 1337 # the sender
 # then type something, then enter, it should be transfered to the receiver
 ```
 
-
 ## Ping an IP on a particular port
+
 ### Telnet method
 ```bash
 telnet 15.0.0.93 4648
@@ -58,6 +58,7 @@ nmap -Pn -p 4648 15.0.0.93
 ```
 
 ## Find the IPs connected on the same LAN
+
 ### Nmap method
 ```bash
 nmap -sP <current_ip>/24
@@ -81,7 +82,7 @@ tcpdump -ni any port 443 and host 10.0.0.1 or host 10.0.0.2 or host 10.0.0.3
 ```bash
 iptables -L -t nat
 
-# pour faire un clean
+# Flush all
 iptables -F -t nat
 ```
 
@@ -98,5 +99,5 @@ sipcalc 244.178.44.111/24
 ```
 
 ## Usefull links
-  * [[https://gist.github.com/miglen/70765e663c48ae0544da08c07006791f|Linux networking tools]]
-  * [[https://twitter.com/icheikhrouhou/status/1133049722384601089|Every Linux networking tool I know]]
+* [Linux networking tools](https://gist.github.com/miglen/70765e663c48ae0544da08c07006791f)
+* [Every Linux networking tool I know](https://twitter.com/icheikhrouhou/status/1133049722384601089)

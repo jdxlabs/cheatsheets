@@ -1,6 +1,7 @@
 # Sublime Text 3
 
 ## Shortcuts
+
 | Command | Shortcut | Shortcut 2 |
 | ------- | -------- | ---------- |
 | Next file | Ctrl+PageUp | |
@@ -30,6 +31,7 @@
 | List functions | CTRL+r | |
 
 ## Install packages
+
 To install and manage its packages, it is recommended to [[http://wbond.net/sublime_packages/package_control/installation|install Package Control]].
 
 Then go to: Preferences -> Package Control -> Install/Remove Package.
@@ -58,6 +60,4 @@ I made this package, inspired by the Nexus theme: [[https://github.com/jdxlabs/d
 "find_selected_text": true,
 "update_check": false
 }
-
 ```
-

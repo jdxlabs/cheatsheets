@@ -44,7 +44,6 @@ PS > & 'C:\Program Files\Git\bin\sh.exe'
 ```
 
 ## Useful links
+* [Windows technical documentation for developers and IT pros](https://learn.microsoft.com/en-us/windows/)
 * [Get a Windows 11 development environment (valid for 2 months)](https://developer.microsoft.com/en-us/windows/downloads/virtual-machines)
-* [Powershell Documentation](https://learn.microsoft.com/fr-fr/powershell)
-* [Windows PowerShell Commands Cheat Sheet](https://www.comparitech.com/net-admin/powershell-cheat-sheet)
-* [PowerShell Cheatsheet](https://github.com/ab14jain/PowerShell)
+..
