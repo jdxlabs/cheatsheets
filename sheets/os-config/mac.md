@@ -1,7 +1,4 @@
-# Some configuration tips for Mac OS X
-
-## Software
-You can find a list of tools to work under Mac OS X on the [[software-equivalents|Software equivalents]] page.
+# Mac tips
 
 ## Keyboard shortcuts for Macbook Pro
 | Action                     | Shortcut    |
@@ -25,16 +22,16 @@ You can find a list of tools to work under Mac OS X on the [[software-equivalent
 |Screen capture with selection                   |⌘ + ⇧ + 4      |
 
 ## Legend for mac shortcuts
-  * Command ⌘
-  * Shift ⇧
-  * Option ⌥
-  * Control ⌃
-  * Caps Lock ⇪
-  * Fn
+* Command ⌘
+* Shift ⇧
+* Option ⌥
+* Control ⌃
+* Caps Lock ⇪
+* Fn
 
 ## VirtualBox shortcuts compatibility
-  * Add a keyboard -> France  -> France Apple Macintosh
-  * Use right Cmd as Host key
+* Add a keyboard -> France -> France Apple Macintosh
+* Use right Cmd as Host key
 (Tested on a Macbook Pro with a Debian image)
 
 ## View the hidden files in the Finder
@@ -42,7 +39,6 @@ You can find a list of tools to work under Mac OS X on the [[software-equivalent
 defaults write com.apple.Finder AppleShowAllFiles -boolean TRUE
 killall Finder
 ```
-
 
 ## Speed up the dock auto-hide
 ```bash
