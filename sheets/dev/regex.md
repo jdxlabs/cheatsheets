@@ -1,5 +1,7 @@
 # Regular expressions
 
+## Commands
+
 | Symbol | Description |
 | ------ | ----------- |
 |# |start - end (we define a special character to put options behind, can also be: ', /, etc.) |
@@ -16,11 +18,10 @@
 |* |"quantifier" => optional character (0, 1 or more times), ex: #a*# (={0,}) |
 |() |to make the quantifier apply to 2 or more letters, ex: #Ay(ay)*# |
 
-
-## Some links to learn Regexs
-
-   - [[https://regexone.com/|RegexOne]]
-   - [[https://regexr.com/|RegExr]]
-   - [[https://github.com/ziishaned/learn-regex|Learn Regex - The easy way]]
-   - [[https://regex101.com/|Regex101]]
-   - [[https://regexcrossword.com/|Regex Crossword]]
+## Useful links
+* [Regexp cheatsheet](https://devhints.io/regexp)
+* [RegexOne](https://regexone.com)
+* [RegExr](https://regexr.com)
+* [Learn Regex - The easy way](https://github.com/ziishaned/learn-regex)
+* [Regex101](https://regex101.com)
+* [Regex Crossword](https://regexcrossword.com)

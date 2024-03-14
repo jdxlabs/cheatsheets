@@ -148,17 +148,17 @@ git log -p filename
 ```
 
 
-## Git Setup
+## Git Config
 
 ### Enable Color
-```bashgit config color.ui true```
+```bash
+git config color.ui true
+```
 
 ### Dealing with word wrap issues on Windows
-```bashgit config --global core.autocrlf true```
-
-### Installation of the Eclipse plugin: Egit
-[[http://www.eclipse.org/egit/download/|Get the plugin here]] and install it via: Help >> Install New Software.
-
+```bash
+git config --global core.autocrlf true
+```
 
 ### ~/.gitconfig file
 ```bash
@@ -175,8 +175,8 @@ git log -p filename
 git check-ignore -v < any_file >
 ```
 
-## To go further
-   * [Learn git branching](https://learngitbranching.js.org)
-   * [Learn git concepts, not commands](https://dev.to/unseenwizzard/learn-git-concepts-not-commands-4gjc)
-   * [Code Review Developer Guide](https://google.github.io/eng-practices/review)
-   * [Git Submodule Cheatsheet](https://medium.com/faun/git-submodule-cheatsheet-29a3bfe443c3)
+## Useful links
+* [Learn git branching](https://learngitbranching.js.org)
+* [Learn git concepts, not commands](https://dev.to/unseenwizzard/learn-git-concepts-not-commands-4gjc)
+* [Code Review Developer Guide](https://google.github.io/eng-practices/review)
+* [Git Submodule Cheatsheet](https://medium.com/faun/git-submodule-cheatsheet-29a3bfe443c3)

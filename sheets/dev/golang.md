@@ -1,5 +1,4 @@
-# Tips for the Go language
-
+# Go language
 
 ## Create a Go path
 ```bash
@@ -14,8 +13,7 @@ export PATH=$PATH:$GOPATH/bin
 go get -v <my_lib>
 ```
 
-## Some links to learn Go
-  - [[https://tour.golang.org/welcome/1|A Tour of Go]]
-  - [[https://louhde.tech/cheatsheet/golang/fds-golang/|Fiche de secours - mémo Golang]]
-  - [[https://devhints.io/go|Go cheatsheet]]
-
+## Useful links
+* [A Tour of Go](https://tour.golang.org/welcome/1)
+* [Go cheatsheet](https://devhints.io/go)
+* [Fiche de secours - Golang (FR)](https://louhde.tech/cheatsheet/golang/fds-golang)
