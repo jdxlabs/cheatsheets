@@ -32,19 +32,17 @@
 
 ## Install packages
 
-To install and manage its packages, it is recommended to [[http://wbond.net/sublime_packages/package_control/installation|install Package Control]].
+To install and manage its packages, it is recommended to [install Package Control](https://packagecontrol.io/installation).
 
-Then go to: Preferences -> Package Control -> Install/Remove Package.
+Then go to : Preferences -> Package Control -> Install/Remove Package.
 
 Interesting packages:
-   * Alignment
-   * FileDiffs
-   * SFTP
-
-## Install syntax highlighting
-I made this package, inspired by the Nexus theme: [[https://github.com/jdxlabs/darkgarden-theme-sublimetext|Colorscheme DarkGarden]].
+* Alignment
+* FileDiffs
+* SFTP
 
 ## Settings - User
+
 ```bash
 {
 "color_scheme": "Packages/Color Scheme - Default/Mariana.sublime-color-scheme",
@@ -61,3 +59,7 @@ I made this package, inspired by the Nexus theme: [[https://github.com/jdxlabs/d
 "update_check": false
 }
 ```
+
+Useful links
+* [Sublime Text Documentation](https://www.sublimetext.com/docs))
+* [DarkGarden colorscheme - Github - Jdxlabs](https://github.com/jdxlabs/darkgarden-theme-sublimetext))

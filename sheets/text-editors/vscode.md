@@ -1,8 +1,6 @@
 # Visual Studio Code
 
 ## Shortcuts
-You can set all SublimeText shortcuts with [[https://marketplace.visualstudio.com/items?itemName=ms-vscode.sublime-keybindings|the Keymap extension]].
-They are listed on [[https://jdxlabs.com/notes/sublime-text|my Sublime text shortcuts page]]
 
 | Command | Shortcut |
 | ------- | -------- |
@@ -12,16 +10,18 @@ They are listed on [[https://jdxlabs.com/notes/sublime-text|my Sublime text shor
 | JSON Prettify       | Ctrl + Alt + m         |
 | JSON Minify         | Alt + m         |
 
+It is also possible to [map with the SublimeText shortcuts](https://marketplace.visualstudio.com/items?itemName=ms-vscode.sublime-keybindings), for people used to it.
+
 ## Some extensions
-  * [[https://marketplace.visualstudio.com/items?itemName=shardulm94.trailing-spaces|Trailing Spaces]]
-  * [[https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig|EditorConfig]]
-  * [[https://marketplace.visualstudio.com/items?itemName=eriklynd.json-tools|JSON Tools]]
-  * [[https://marketplace.visualstudio.com/items?itemName=ms-python.python|Python]]
-  * [[https://marketplace.visualstudio.com/items?itemName=wholroyd.jinja|Jinja]]
-  * [[https://marketplace.visualstudio.com/items?itemName=haaaad.ansible|Ansible]]
-  * [[https://marketplace.visualstudio.com/items?itemName=mauve.terraform|Terraform]]
-  * [[https://marketplace.visualstudio.com/items?itemName=PeterJausovec.vscode-docker|Docker]]
+* [Trailing Spaces](https://marketplace.visualstudio.com/items?itemName=shardulm94.trailing-spaces)
+* [EditorConfig](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
+* [JSON Tools](https://marketplace.visualstudio.com/items?itemName=eriklynd.json-tools)
+* [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
+* [Jinja](https://marketplace.visualstudio.com/items?itemName=wholroyd.jinja)
+* [Ansible](https://marketplace.visualstudio.com/items?itemName=haaaad.ansible)
+* [Terraform](https://marketplace.visualstudio.com/items?itemName=mauve.terraform)
+* [Docker](https://marketplace.visualstudio.com/items?itemName=PeterJausovec.vscode-docker)
 
 ## Usefull links
-  * [[https://code.visualstudio.com/|Official page]]
-  * [[https://marketplace.visualstudio.com/VSCode|Extensions]]
+* [VSCode Documentation](https://code.visualstudio.com/docs)
+* [VSCode Extensions Marketplace](https://marketplace.visualstudio.com/VSCode)

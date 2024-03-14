@@ -62,10 +62,6 @@
 | Move left word by word | b | Ctrl+left |
 | Switch to last used buffer | :b# | |
 
-## Configuration
-
-I made a configuration with some plugins, [[https://github.com/jdxlabs/config-vim|available here]], you can make your own, inspiring yourself.
-
 ## List of commands
 
 | Action  | Command | Command 2 |
@@ -75,23 +71,20 @@ I made a configuration with some plugins, [[https://github.com/jdxlabs/config-vi
 | Change file format | :set fileformat=... | |
 | Plugin: Buffer Explorer | , be | |
 
-
 ## Vertical Selection Tip
 
-To edit multiple lines: \\
-Ctrl+Shift+v and select the different lines, \\
-Shift+i and write the desired text, \\
-ESC when finished, \\
+### To edit multiple lines
+- Press Ctrl+Shift+v and select the different lines
+- Press Shift+i and write the desired text
+- ESC when finished
 
-To delete characters on multiple lines: \\
-Ctrl+Shift+v and select the characters of the different lines, \\
-X to remove characters, \\
-ESC when finished, \\
-
+### To delete characters on multiple lines
+- Press Ctrl+Shift+v and select the characters of the different lines
+- Press x to remove characters
+- ESC when finished
 
 ## Useful links
-  * [[https://learnvim.irian.to/|Learn Vim - The Smart Way]]
-  * [[https://realpython.com/vim-and-python-a-match-made-in-heaven/|VIM and Python – A Match Made in Heaven]]
-
-
-
+* [Vim Documentation](https://www.vim.org/docs.php)
+* [Learn Vim - The Smart Way](https://learnvim.irian.to)
+* [VIM and Python – A Match Made in Heaven](https://realpython.com/vim-and-python-a-match-made-in-heaven)
+* [Vim Config - Github - Jdxlabs](https://github.com/jdxlabs/config-vim)
