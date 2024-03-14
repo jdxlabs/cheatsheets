@@ -1,4 +1,4 @@
-# SQL
+# SQL commands
 
 ## Insert
 ```sql
@@ -52,3 +52,7 @@ select nom from nomTable where REGEXP_LIKE(nomColonne,'ERi','i');
 
 select nom from nomTable where UPPER(nomColonne) like 'ERI%'
 ```
+
+## Usefull links
+* [W3schools - SQL syntax](https://www.w3schools.com/sql/sql_syntax.asp)
+* [Codecademy - SQL Commands](https://www.codecademy.com/article/sql-commands)

@@ -1,12 +1,10 @@
 # MySQL
 
-
 ## Mysql cli connect
 ```bash
 mysql -p<pass> -u<user> -h <host> -P <port> <db_name>
 mysql -A -p<pass> -u<user> -h <host> -P <port> <db_name>
 ```
-
 
 ## Install tools in Debian
 ```bash
@@ -20,7 +18,7 @@ show full processlist;
 kill <processId>;
 ```
 
-(also possible with MySQL Administrator -> Server Connections)
+It's also possible to kill a process with MySQL Administrator, in Server Connections.
 
 ## Change user password
 ```bash
@@ -64,3 +62,7 @@ mysqldump -p<pass> -u<user> -h <host> -P <port> <db_name> \
 ```bash
 mysql -p<pass> -u<user> -h <host> -P <port> <db_name> < dump.sql
 ```
+
+## Usefull links
+* [MySQL Documentation](https://dev.mysql.com/doc/)
+* [MySQL Cheatsheet](https://devhints.io/mysql)
