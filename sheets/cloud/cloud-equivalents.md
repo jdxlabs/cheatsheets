@@ -3,7 +3,7 @@
 ## Platforms specifities
 | Description | AWS | GCP | Azure |
 | ----------- | ------- | --- | ----- |
-| Nb of services | 200 | 60 | 100 |
+| Nb of services | 200+ | 200+ | 100+ |
 | Compute / VMs | Elastic Cloud Compute (EC2) | Google Compute Engine | Azure Virtual Machines |
 | Managed Kubernetes | EKS | GKE | AKS |
 | PaaS | AWS Elastic Beanstalk | App Engine | Azure App Service |
