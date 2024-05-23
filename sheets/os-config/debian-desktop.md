@@ -1,10 +1,25 @@
 # Debian Desktop tips
 
-## Extract a Debian archive
+## Create an archive
 ```bash
+tar -czvf file.tar.gz directory
+
+# or
+zip -r file.zip directory
+```
+
+## Extract an archive
+```bash
+tar -zxf file.tar.gz
+
+# or
+tar -xf file.tar.xz
+
+# or
+unzip file.zip
+
+# or, for a debian package
 ar x dpkg_1.17.23_amd64.deb
-tar -zxf data.tar.gz
-(or tar -xf data.tar.xz)
 ```
 
 ## Set the locale timezone
