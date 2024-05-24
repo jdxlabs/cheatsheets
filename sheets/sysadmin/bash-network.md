@@ -18,6 +18,12 @@ yum install -y nmap # for ncat, etc.
 
 ## Basic commands
 ```bash
+# Show current IP address
+ip address
+# or
+ifconfig -a
+
+# Informations about an url
 ping example.com
 traceroute example.com
 ```
