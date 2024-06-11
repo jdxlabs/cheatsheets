@@ -64,6 +64,7 @@
 | CI/CD | AWS CodeBuild, AWS CodeDeploy, AWS CodePipeline | Cloud Build | Azure DevOps, GitHub Enterprise |
 | IA Companion | Amazon CodeWhisperer, Amazon Q | Duet IA, Gemini | Copilot |
 | IaC Deployment | CloudFormation, CDK | Cloud Deployment Manager | Azure Deployment Manager |
+| Security recommendations dashboard | Trusted Advisor | Security Command Center | ? |
 | Trusted cloud (for France) | Partnership with Atos | S3NS (by Thales) | Bleu (by Capgemini & Orange) |
 
 
