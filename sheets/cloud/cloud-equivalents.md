@@ -47,8 +47,8 @@
 | Stream data ingest | AWS Kinesis | Pub/Sub | Azure Events Hubs |
 | Data workflow orchestration | Amazon Data Pipeline, AWS Glue | Cloud Composer | Azure Data Factory |
 | Data processing | AWS Elastic MapReduce (EMR) | DataProc | Azure Data Lake Analytics, HDInsight |
-| IA & Machine Learning platform | AWS SageMaker | Vertex AI | Azure AI Platform |
-| IA & Machine Learning platform assistant | AWS SageMaker Autopilot | Vertex AI AutoML, Vertex AI custom training | AutoML, Azure Cognitive Services, Azure Machine Learning |
+| AI & Machine Learning platform | AWS SageMaker | Vertex AI | Azure AI Platform |
+| AI & Machine Learning platform assistant | AWS SageMaker Autopilot | Vertex AI AutoML, Vertex AI custom training | AutoML, Azure Cognitive Services, Azure Machine Learning |
 | Tensorflow | Tensorflow on AWS | TensorFlow Enterprise | Azure Databricks |
 | Identity and Access Management | IAM | IAM | Azure Active Directory External Identities |
 | CIAM | AWS Cognito | Identity Platform | Azure Active Directory B2C |
@@ -62,7 +62,7 @@
 | Certificate Management | AWS Certificate Manager (ACM) | Google Cloud SSL Certificates | Azure Key Vault |
 | Resources management | AWS Organizations, Resource Groups & Tag Editor | Resource Manager | Azure Management Groups |
 | CI/CD | AWS CodeBuild, AWS CodeDeploy, AWS CodePipeline | Cloud Build | Azure DevOps, GitHub Enterprise |
-| IA Companion | Amazon CodeWhisperer, Amazon Q | Duet IA, Gemini | Copilot |
+| AI Companion | Amazon CodeWhisperer, Amazon Q | Duet AI, Gemini | Copilot |
 | IaC Deployment | CloudFormation, CDK | Cloud Deployment Manager | Azure Deployment Manager |
 | Security recommendations dashboard | Trusted Advisor | Security Command Center | Azure Advisor |
 | Dashboard for monitoring the health of services | Health Dashboard | Google Cloud Status | Azure Service Health |
