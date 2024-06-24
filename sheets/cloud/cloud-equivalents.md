@@ -65,6 +65,7 @@
 | IA Companion | Amazon CodeWhisperer, Amazon Q | Duet IA, Gemini | Copilot |
 | IaC Deployment | CloudFormation, CDK | Cloud Deployment Manager | Azure Deployment Manager |
 | Security recommendations dashboard | Trusted Advisor | Security Command Center | Azure Advisor |
+| Dashboard for monitoring the health of services | Health Dashboard | Google Cloud Status | Azure Service Health |
 | Trusted cloud (for France) | Partnership with Atos | S3NS (by Thales) | Bleu (by Capgemini & Orange) |
 
 
@@ -73,5 +74,6 @@
 * [GCP services](https://cloud.google.com/gcp/?hl=en)
 * [Azure services](https://azure.microsoft.com/en-gb)
 * [Quels sont les services proposés par Google Cloud ? (FR)](https://www.group-dis.com/blog/loffre-cloud/quels-sont-les-services-proposes-par-google-cloud)
+* [Compare Google Cloud service to AWS services - 2023](https://medium.com/@lokwa780/compare-google-cloud-service-to-aws-services-ee418172d69)
 * [Google Cloud vs AWS en 2024 (Comparaison des géants) (FR)](https://kinsta.com/fr/blog/google-cloud-vs-aws)
 * [Google Documentation - Compare AWS and Azure services to Google Cloud](https://cloud.google.com/docs/get-started/aws-azure-gcp-service-comparison?hl=en)
