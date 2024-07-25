@@ -65,7 +65,7 @@
 | AI Companion | Amazon CodeWhisperer, Amazon Q | Duet AI, Gemini | Copilot |
 | IaC Deployment | CloudFormation, CDK | Cloud Deployment Manager | Azure Deployment Manager |
 | Security recommendations dashboard | Trusted Advisor | Security Command Center | Azure Advisor |
-| Dashboard for monitoring the health of services | Health Dashboard | Google Cloud Status | Azure Service Health |
+| Dashboard for monitoring the health of services | Health Dashboard, QuickSight | Google Cloud Status | Azure Service Health |
 | Trusted cloud (for France) | Partnership with Atos | S3NS (by Thales) | Bleu (by Capgemini & Orange) |
 
 
