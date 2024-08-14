@@ -18,7 +18,7 @@
 | In-Memory Data Storage | Amazon ElastiCache | Memorystore | Azure Cache |
 | Backups | AWS Backup | Cloud Storage Object Versioning and Lifecycle Management | Azure Backup |
 | API Management | AWS API Gateway, AWS Publisher Service | API Gateway, Apigee API Management | Azure API Management |
-| Cost Management | AWS Cost Explorer, AWS Budgets | Billing | Azure Cost Management |
+| Cost Management | AWS Cost Explorer, AWS Budgets | Billing, FinOps Hub | Azure Cost Management |
 | Logging | CloudWatch Logs | Cloud Logging | Azure Monitoring Logs |
 | Monitoring | CloudWatch | Cloud Monitoring | Azure Monitoring |
 | Audit logs | AWS CloudTrail | Cloud Audit Logs | Azure Audit Logs |
