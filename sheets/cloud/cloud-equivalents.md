@@ -47,7 +47,7 @@
 | Stream data ingest | AWS Kinesis | Pub/Sub | Azure Events Hubs |
 | Data workflow orchestration | Amazon Data Pipeline, AWS Glue | Cloud Composer | Azure Data Factory |
 | Data processing | AWS Elastic MapReduce (EMR) | DataProc | Azure Data Lake Analytics, HDInsight |
-| AI & Machine Learning platform | AWS SageMaker, Bedrock | Vertex AI | Azure AI Platform |
+| AI & Machine Learning platform | AWS SageMaker, Bedrock | Vertex AI, Dialogflow | Azure AI Platform |
 | AI & Machine Learning platform assistant | AWS SageMaker Autopilot | Vertex AI AutoML, Vertex AI custom training | AutoML, Azure Cognitive Services, Azure Machine Learning |
 | Tensorflow | Tensorflow on AWS | TensorFlow Enterprise | Azure Databricks |
 | Identity and Access Management | IAM | IAM | Azure Active Directory External Identities |
