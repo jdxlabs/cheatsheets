@@ -14,7 +14,7 @@
 | File Object storage | AWS Simple Storage Service (S3) | Cloud Storage (GCS) | Azure Blob Storage |
 | Relational Database | AWS Relational Database Service (RDS), Aurora, Neptune | Cloud SQL, Cloud Spanner, AlloyDB | Azure Database for MySQL/PostgreSQL |
 | SQL database migration | AWS Migration hub | Database Migration Service | Azure Database Migration Service |
-| NoSQL | AWS DynamoDB, AWS DocumentDB | Datastore, Firestore, Bigtable | Azure Cosmos DB |
+| NoSQL | AWS DynamoDB, AWS DocumentDB | Firestore, Bigtable | Azure Cosmos DB |
 | In-Memory Data Storage | Amazon ElastiCache | Memorystore | Azure Cache |
 | Backups | AWS Backup | Cloud Storage Object Versioning and Lifecycle Management | Azure Backup |
 | API Management | AWS API Gateway, AWS Publisher Service | API Gateway, Apigee API Management | Azure API Management |
