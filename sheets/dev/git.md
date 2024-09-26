@@ -125,6 +125,16 @@ git status
 ` nothing to validate, the working copy is clean
 ```
 
+### Purge a file from Git history
+```bash
+git filter-branch --force --index-filter \
+  "git rm --cached --ignore-unmatch config/apiKeys.json" \
+  --prune-empty --tag-name-filter cat -- --all
+# Purges `config/apiKeys.json` from history
+
+git push origin --force --all
+```
+
 
 ## Tagging
 
