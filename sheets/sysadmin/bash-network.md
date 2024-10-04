@@ -8,6 +8,7 @@ apt install -y iputils-ping # for ping
 apt install -y dnsutils # for dig, etc.
 apt install -y net-tools # for netstat, etc.
 apt install -y nmap
+apt install -y traceroute
 ```
 
 ### CentOS
