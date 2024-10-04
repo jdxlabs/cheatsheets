@@ -32,6 +32,9 @@ traceroute example.com
 ## Lookup DNS for an url
 ```bash
 dig <any_url>
+
+# or
+nslookup <any_url>
 ```
 
 ## Show the IPs connected to a machine
