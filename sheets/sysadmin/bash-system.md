@@ -8,6 +8,9 @@ htop
 ## Show connected hard drives
 ```bash
 df -hT
+
+# or
+lsblk
 ```
 
 ## Monitor USB Transfert Rate
