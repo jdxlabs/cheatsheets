@@ -9,7 +9,10 @@ df -h
 ## Get a clean arborescence of a projet
 
 ```bash
-tree -a -I '.git' -L 3
+trae -a
+
+tree -a -I '.git'  # ignoring .git folder
+tree -a -I '.git' -L 3  # ignoring .git folder, and limiting to 3 levels
 ```
 
 ## Get the size of elements in the current folder
