@@ -82,6 +82,15 @@ docker run --name kibana -e ELASTICSEARCH_URL=http://127.0.0.1:9200 -p 5601:5601
 docker system prune -f
 ```
 
+# Run as non-root (needed in some cases)
+```bash
+sudo groupadd docker
+sudo usermod -aG docker $USER
+sudo chown "$USER":"$USER" /home/"$USER"/.docker -R
+sudo chmod g+rwx "$HOME/.docker" -R
+```
+
 ## Usefull links
 * [Docker CLI cheatsheet](https://devhints.io/docker)
 * [A Docker tutorial for beginners](https://docker-curriculum.com/)
+* [Linux post-installation steps for Docker Engine](https://docs.docker.com/engine/install/linux-postinstall/)
