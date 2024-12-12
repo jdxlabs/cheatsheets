@@ -70,6 +70,9 @@ git mv <file_name> <new_destination>
 ### Update your local repository
 ```bash
 git pull
+
+# or
+git pull --rebase
 ```
 
 ### Commit
@@ -184,6 +187,20 @@ git config --global core.autocrlf true
 ```bash
 git check-ignore -v < any_file >
 ```
+
+### Bonus: A little utily to see last changes directly in the console
+```bash
+apt install tig
+
+# You can call it in your repository
+tig
+
+# To navigate :
+# Up/down to explore commits
+# Ctrl U/D to browse the changed files in the current commit
+# and Q to quit !
+```
+
 
 ## Useful links
 * [Learn git branching](https://learngitbranching.js.org)
