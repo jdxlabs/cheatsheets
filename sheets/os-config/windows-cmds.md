@@ -30,13 +30,18 @@ PS(Admin) >
 choco install -y libreoffice notepadplusplus vlc sumatrapdf XnViewMP 7zip
 
 # more
-choco install -y skype discord steam hwinfo scanner wiztree gimp homebank keepassxc pcloud protonvpn
+choco install -y skype discord steam cpu-z hwinfo scanner wiztree gimp homebank keepassxc pcloud protonvpn
 
 # dev
 choco install -y vscode filezilla notion
 
-# music
+# music / multimedia
 choco install -y reaper guitar-pro obs-studio shotcut
+
+# upgrades
+choco upgrade chocolatey
+choco upgrade all
+choco upgrade cpu-z
 ```
 
 ### Tools for developers
