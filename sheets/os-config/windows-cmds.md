@@ -27,12 +27,21 @@ PS(User) > iex (new-object net.webclient).downloadstring('https://get.scoop.sh')
 ### Basic tools for a new user
 ```bash
 PS(Admin) >
-choco install -y libreoffice notepadplusplus vlc sumatrapdf XnViewMP 7zip wiztree
+choco install -y libreoffice notepadplusplus vlc sumatrapdf XnViewMP 7zip
+
+# more
+choco install -y skype discord steam hwinfo scanner wiztree gimp homebank keepassxc pcloud protonvpn
+
+# dev
+choco install -y vscode filezilla notion
+
+# music
+choco install -y reaper guitar-pro obs-studio shotcut
 ```
 
 ### Tools for developers
 ```bash
-choco install -y  git cmder vscode vagrant virtualbox docker
+choco install -y git cmder vscode vagrant virtualbox docker
 
 PS(Admin) > scoop install wget curl sudo ruby python
 ```
