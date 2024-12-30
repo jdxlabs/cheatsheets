@@ -5,7 +5,7 @@
 Install :
 ```bash
 curl https://mise.run | sh
-echo "eval \"\$(/home/jdx/.local/bin/mise activate zsh)\"" >> "/home/jdx/.zshrc"
+echo "eval \"\$(/home/user/.local/bin/mise activate zsh)\"" >> "/home/jdx/.zshrc"
 ```
 
 Commands : 
