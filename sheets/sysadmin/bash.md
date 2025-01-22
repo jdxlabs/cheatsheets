@@ -3,7 +3,7 @@
 ## Get disk space usage
 
 ```bash
-df -h
+df -hT
 ```
 
 ## Get a clean arborescence of a projet
