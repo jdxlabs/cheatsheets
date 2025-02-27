@@ -21,5 +21,6 @@
 | Media reader | VLC |
 | Images reader | XnViewMP |
 | Photo editor | Gimp, Krita |
-| Audio editor | Audacity |
+| Audio editor | Reaper, Audacity |
+| Video editor | Shotcut, Kdenlive, OpenShot Video Editor |
 | FTP client | Filezilla |
