@@ -1,6 +1,6 @@
 # Cloud equivalents
 
-## Platforms specifities
+## Platforms specificities
 | Description | AWS | GCP | Azure | Scaleway | OVHCloud |
 | ----------- | ------- | --- | ----- | -------- | --------- |
 | Nb of services | 200+ | 200+ | 100+ | 50+ | 80+ |
