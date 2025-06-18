@@ -87,8 +87,14 @@
 * [AWS services](https://aws.amazon.com/?nc1=h_ls)
 * [Azure services](https://azure.microsoft.com/en-gb)
 * [GCP services](https://cloud.google.com/gcp/?hl=en)
+* [Scaleway Documentation](https://www.scaleway.com/en/docs/)
+* [OVHcloud Documentation](https://docs.ovh.com/gb/en/)
 * [Google Cloud Platform Services Summary](https://cloud.google.com/terms/services?hl=en)
-* [Quels sont les services proposés par Google Cloud ? (FR)](https://www.group-dis.com/blog/loffre-cloud/quels-sont-les-services-proposes-par-google-cloud)
-* [Compare Google Cloud service to AWS services - 2023](https://medium.com/@lokwa780/compare-google-cloud-service-to-aws-services-ee418172d69)
-* [Google Cloud vs AWS en 2024 (Comparaison des géants) (FR)](https://kinsta.com/fr/blog/google-cloud-vs-aws)
 * [Google Documentation - Compare AWS and Azure services to Google Cloud](https://cloud.google.com/docs/get-started/aws-azure-gcp-service-comparison?hl=en)
+
+## Pricing pages
+* [AWS Pricing](https://aws.amazon.com/pricing/)
+* [Azure Pricing](https://azure.microsoft.com/en-us/pricing/)
+* [GCP Pricing](https://cloud.google.com/pricing)
+* [Scaleway Pricing](https://www.scaleway.com/en/pricing/)
+* [OVHcloud Pricing](https://www.ovhcloud.com/en/public-cloud/prices/)
