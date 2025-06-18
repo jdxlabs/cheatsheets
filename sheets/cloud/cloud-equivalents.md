@@ -13,7 +13,7 @@
 | FaaS | AWS Lambda | Cloud Functions | Azure Functions Serverless Compute | Serverless Functions | - |
 | Container Registry | Amazon ECR | Container Registry | Azure Container Registry | Container Registry | - |
 | File Object storage | AWS Simple Storage Service (S3) | Cloud Storage (GCS) | Azure Blob Storage | Object Storage | Object Storage |
-| Relational Database | AWS Relational Database Service (RDS), Aurora, Neptune | Cloud SQL, Cloud Spanner, AlloyDB | Azure Database for MySQL/PostgreSQL | Database for PostgreSQL/MySQL/Redis | Cloud Databases |
+| Relational Database | AWS Relational Database Service (RDS), Aurora, Neptune | Cloud SQL, Cloud Spanner, AlloyDB | Azure Database for MySQL/PostgreSQL | Database for PostgreSQL/MySQL | Cloud Databases |
 | SQL database migration | AWS Migration hub | Database Migration Service | Azure Database Migration Service | - | Database Migration Service |
 | NoSQL | AWS DynamoDB, AWS DocumentDB | Firestore, Datastore, Bigtable | Azure Cosmos DB | - | MongoDB |
 | In-Memory Data Storage | Amazon ElastiCache | Memorystore | Azure Cache | Database for Redis | Redis |
