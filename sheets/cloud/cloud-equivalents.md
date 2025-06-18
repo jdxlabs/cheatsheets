@@ -77,7 +77,7 @@
 | Security recommendations dashboard | Trusted Advisor | Security Command Center | Azure Advisor | - | - |
 | Dashboard for monitoring the health of services | Health Dashboard, QuickSight | Google Cloud Status | Azure Service Health | Status Page | Status |
 | Inventory of data assets | AWS Glue Data Catalog | Cloud Data Catalog | Azure Purview | - | - |
-| Trusted cloud (for France) | Partnership with Atos | S3NS (by Thales) | Bleu (by Capgemini & Orange) | SecNumCloud qualified | SecNumCloud qualified |
+| Trusted cloud (for France) | AWS European Sovereign Cloud (partnership with Germany) | S3NS (by Thales) | Bleu (by Capgemini & Orange) | SecNumCloud qualified | SecNumCloud qualified |
 
 
 ## Usefull links
