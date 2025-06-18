@@ -7,7 +7,7 @@
 | Compute / VMs | Elastic Cloud Compute (EC2) | Google Compute Engine | Azure Virtual Machines | Instances | Public Cloud Instances |
 | Managed Kubernetes | EKS | GKE | AKS | Kapsule | Managed Kubernetes Service |
 | PaaS | AWS Elastic Beanstalk | App Engine | Azure App Service | - | Web PaaS |
-| Containers without infrastruce | AWS AppRunner, AWS Fargate | Cloud Run | Azure Container Apps/Instance | Serverless Containers | - |
+| Containers without infrastructure | AWS AppRunner, AWS Fargate | Cloud Run | Azure Container Apps/Instance | Serverless Containers | - |
 | Hybrid Container | AWS EKS AnyWhere | Anthos, GKE Enterprise | Azure Arc | - | - |
 | Platform for rapid creation of web and mobile applications | AWS Amplify | Firebase | Visual Studio App Center | - | - |
 | FaaS | AWS Lambda | Cloud Functions | Azure Functions Serverless Compute | Serverless Functions | - |
