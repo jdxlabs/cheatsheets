@@ -6,6 +6,12 @@ apt install golang-go
 mkdir -p $HOME/gocode/bin
 export GOPATH=$HOME/gocode
 export PATH=$PATH:$GOPATH/bin
+
+# or with Mise :
+mise install golang
+mise use -g go@latest
+
+go version
 ```
 
 ## Get a lib
