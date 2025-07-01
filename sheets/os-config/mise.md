@@ -30,6 +30,9 @@ mise ls
 mise ls-remote terraform
 mise ls-remote terraform@1.11
 
+# search for tools
+mise search jq
+
 # updates
 mise up --interactive
 ```
