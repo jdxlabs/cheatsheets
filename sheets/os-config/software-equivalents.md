@@ -11,7 +11,7 @@
 | Images reader | Photos | Preview | Eye of Gnome |
 | Files compression | 7-Zip | The Unarchiver | File-roller |
 | Diff tool | Winmerge | DiffMerge | Meld |
-| CD/DVD writer | ImgBurn, CDBurnerXP | Burn | Brasero |
+| CD/DVD writer | ImgBurn | Burn | Brasero |
 
 ## Multiplatfoms
 |     |     |
