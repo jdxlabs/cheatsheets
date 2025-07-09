@@ -20,7 +20,7 @@
 | Office | LibreOffice |
 | Media reader | VLC |
 | Images reader | XnViewMP |
-| Photo editor | Gimp, Krita |
-| Audio editor | Reaper, Audacity |
-| Video editor | Shotcut, Kdenlive, OpenShot Video Editor |
+| Photo editor | Gimp, Krita, Affinity Photo |
+| Audio editor | Reaper, Audacity, Ableton Live, Cubase, Logic Pro |
+| Video editor | Kdenlive, DaVinci Resolve, Shotcut |
 | FTP client | Filezilla |
