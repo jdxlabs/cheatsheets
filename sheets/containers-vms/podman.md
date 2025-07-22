@@ -95,5 +95,5 @@ podman system prune -f
 ```
 
 ## Usefull links
-* [Podman Documentation](https://docs.docker.io/en/latest/)
+* [Podman Documentation](https://docs.podman.io/en/latest/)
 * [Podman CLI cheatsheet](https://mpolinowski.github.io/docs/DevOps/Linux/2019-09-25--podman-cheat-sheet/2019-09-25/)
