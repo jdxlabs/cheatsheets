@@ -13,7 +13,10 @@ brew install gcloud
 ```bash
 gcloud auth list
 gcloud auth login
-gcloud auth application-default list  # used by Terraform
+
+# for Terraform, or other apps
+gcloud auth application-default list
+gcloud auth application-default login
 
 gcloud config configurations list
 gcloud config configurations activate <wanted-config>
