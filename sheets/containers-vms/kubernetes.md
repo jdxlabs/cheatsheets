@@ -64,7 +64,7 @@ k get secret <secret-name> -o yaml
 k create secret generic <secret-name> --from-literal=mykey=myvalue [--from-file=./myfile.txt] -n <my-namespace>
 ```
 
-## Install K3S to work locally (with Podman or Docker)
+## Install K3S to work locally
 
 ```bash
 # install K3S (and avoid using sudo)
@@ -89,4 +89,4 @@ Note : You have a lot of possibilities to install Kubernetes locally (like Kind,
 * [Comprehensive Kubernetes Cheat Sheet](https://dev.to/pragyanatvade/comprehensive-kubernetes-cheatsheet-34gm)
 * [O.REILLY - Common kubectl Commands](https://www.oreilly.com/library/view/kubernetes-up-and/9781491935668/ch04.html)
 * [Kubernetes - The hard way](https://github.com/mmumshad/kubernetes-the-hard-way)
-* [Kubernetes - The easy way](https://github.com/darxkies/k8s-tew)
+* [Kubernetes - The easier way](https://github.com/darxkies/k8s-tew)
