@@ -64,7 +64,8 @@ k get secret <secret-name> -o yaml
 k create secret generic <secret-name> --from-literal=mykey=myvalue [--from-file=./myfile.txt] -n <my-namespace>
 ```
 
-## Install Minikube and Kubectl to work locally
+
+## Install Minikube to work locally
 
 Follow instructions here :
 * [Running Kubernetes Locally via Minikube](https://kubernetes.io/docs/setup/minikube)
@@ -85,6 +86,21 @@ minikube dashboard
 minikube ssh
 ```
 Note : You have a lot of possibilities to install Kubernetes locally (like Kind, KubeADM, etc.).
+
+
+## Install K3S to work locally
+
+```bash
+# install K3S (and avoid using sudo)
+curl -sfL https://get.k3s.io | sh -s -- --write-kubeconfig-mode 644
+
+# Check the status of K3S
+sudo systemctl status k3s
+k get nodes
+
+# uninstall K3S
+sudo /usr/local/bin/k3s-uninstall.sh
+```
 
 
 ## Training resources
