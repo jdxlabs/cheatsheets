@@ -64,31 +64,7 @@ k get secret <secret-name> -o yaml
 k create secret generic <secret-name> --from-literal=mykey=myvalue [--from-file=./myfile.txt] -n <my-namespace>
 ```
 
-
-## Install Minikube to work locally
-
-Follow instructions here :
-* [Running Kubernetes Locally via Minikube](https://kubernetes.io/docs/setup/minikube)
-* [Install kubectl on Linux](https://kubernetes.io/docs/tasks/tools/install-kubectl/#install-kubectl-on-linux)
-
-Then, you have a VM with Kubernetes installed :
-```bash
-# Start the VM
-minikube start 
-
-# Stop the VM
-minikube stop
-
-# Show the K8S Dashboard
-minikube dashboard 
-
-# Connect to the VM with SSH, to see your docker images, etc.
-minikube ssh
-```
-Note : You have a lot of possibilities to install Kubernetes locally (like Kind, KubeADM, etc.).
-
-
-## Install K3S to work locally
+## Install K3S to work locally (with Podman or Docker)
 
 ```bash
 # install K3S (and avoid using sudo)
@@ -101,7 +77,7 @@ k get nodes
 # uninstall K3S
 sudo /usr/local/bin/k3s-uninstall.sh
 ```
-
+Note : You have a lot of possibilities to install Kubernetes locally (like Kind, KubeADM, etc.).
 
 ## Training resources
 * [Killer.sh](https://killer.sh/)
@@ -112,5 +88,5 @@ sudo /usr/local/bin/k3s-uninstall.sh
 * [Kubectl Cheat Sheet](http://kubernetes.io/docs/user-guide/kubectl-cheatsheet/)
 * [Comprehensive Kubernetes Cheat Sheet](https://dev.to/pragyanatvade/comprehensive-kubernetes-cheatsheet-34gm)
 * [O.REILLY - Common kubectl Commands](https://www.oreilly.com/library/view/kubernetes-up-and/9781491935668/ch04.html)
-* [Kubeadm vs MiniKube, Kind and K3S](https://www.padok.fr/en/blog/minikube-kubeadm-kind-k3s)
 * [Kubernetes - The hard way](https://github.com/mmumshad/kubernetes-the-hard-way)
+* [Kubernetes - The easy way](https://github.com/darxkies/k8s-tew)
