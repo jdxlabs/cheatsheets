@@ -90,3 +90,4 @@ Note : You have a lot of possibilities to install Kubernetes locally (like Kind,
 * [O.REILLY - Common kubectl Commands](https://www.oreilly.com/library/view/kubernetes-up-and/9781491935668/ch04.html)
 * [Kubernetes - The hard way](https://github.com/mmumshad/kubernetes-the-hard-way)
 * [Kubernetes - The easier way](https://github.com/darxkies/k8s-tew)
+* [Awesome Kubernetes Resources](https://github.com/tomhuang12/awesome-k8s-resources)
