@@ -13,7 +13,7 @@
 | Diff tool | Winmerge | DiffMerge | Meld |
 | CD/DVD writer | ImgBurn | Burn | Brasero |
 
-## Multiplatfoms
+## Multi-platforms
 |     |     |
 | --- | --- |
 | Internet browser | Brave, Chrome, Firefox |
