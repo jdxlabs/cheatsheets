@@ -35,6 +35,9 @@ mise search jq
 
 # updates
 mise up --interactive
+
+# update himself
+mise self-update
 ```
 
 
