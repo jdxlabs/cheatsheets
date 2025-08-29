@@ -72,6 +72,7 @@ curl -sfL https://get.k3s.io | sh -s -- --write-kubeconfig-mode 644
 
 # Check the status of K3S
 sudo systemctl status k3s
+export KUBECONFIG=/etc/rancher/k3s/k3s.yaml
 k get nodes
 
 # uninstall K3S
