@@ -14,7 +14,7 @@ brew install derailed/k9s/k9s
 | Switch contexts                             | :ctx              |
 | Switch namespaces                           | :ns               |
 | Display a list of shortcuts                 | ?                 |
-| Display a list of resources                 | :alias            |
+| Display a list of resources                 | :alias, CTRL+a    |
 | Jump directly to a specific resource        | :<my-resource>    |
 | Quit                                        | :q, ctrl-c        |
 | Show resource details                       | d                 |
