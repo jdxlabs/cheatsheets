@@ -70,6 +70,9 @@ k create secret generic <secret-name> --from-literal=mykey=myvalue [--from-file=
 # install K3S (and avoid using sudo)
 curl -sfL https://get.k3s.io | sh -s -- --write-kubeconfig-mode 644
 
+# install K3S (without Flannel, to let the possibility of another CNI) (and still avoiding using sudo)
+curl -sfL https://get.k3s.io | INSTALL_K3S_EXEC="server --disable flannel --disable-kube-proxy --write-kubeconfig-mode 644" sh -
+
 # Check the status of K3S
 sudo systemctl status k3s
 export KUBECONFIG=/etc/rancher/k3s/k3s.yaml
