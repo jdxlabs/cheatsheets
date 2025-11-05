@@ -80,6 +80,9 @@ k get nodes
 
 # uninstall K3S
 sudo /usr/local/bin/k3s-uninstall.sh
+rm -rf /var/lib/rancher/k3s
+rm -rf /etc/rancher/k3s
+rm -rf ~/.kube
 ```
 Note : You have a lot of possibilities to install Kubernetes locally (like Kind, KubeADM, etc.).
 
