@@ -1,6 +1,6 @@
 # Mise
 
-[Mise](https://mise.jdx.dev/) is a utility written in Rust, with the same principles thant [ASDF](https://asdf-vm.com/).
+[Mise](https://mise.jdx.dev/) is a utility written in Rust, with the same principles than [ASDF](https://asdf-vm.com/).
 
 Install :
 ```bash
