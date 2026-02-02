@@ -38,10 +38,18 @@ choco install -y vscode filezilla notion
 # music / multimedia
 choco install -y reaper guitar-pro obs-studio shotcut
 
+# uninstall packages
+choco uninstall shotcut
+
+# show outdated packages
+choco outdated
+
 # upgrades
 choco upgrade chocolatey
-choco upgrade all
 choco upgrade cpu-z
+
+# upgrade all outdated packages
+choco upgrade all
 ```
 
 ### Tools for developers
