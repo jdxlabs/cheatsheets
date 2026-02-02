@@ -54,9 +54,9 @@ choco upgrade all
 
 ### Dev tools
 ```bash
+PS(Admin) > 
 choco install -y git cmder vscode vagrant virtualbox docker
-
-PS(Admin) > scoop install wget curl sudo ruby python
+scoop install wget curl sudo ruby python
 ```
 
 ### Bash access from PowerShell (once Git is installed)
