@@ -24,7 +24,7 @@ PS(User) > iex (new-object net.webclient).downloadstring('https://get.scoop.sh')
 
 ## Package managers : Install packages
 
-### Basic tools for a new user
+### Chocolatey commands
 ```bash
 PS(Admin) >
 choco install -y libreoffice notepadplusplus vlc sumatrapdf XnViewMP 7zip
@@ -52,7 +52,7 @@ choco upgrade cpu-z
 choco upgrade all
 ```
 
-### Tools for developers
+### Dev tools
 ```bash
 choco install -y git cmder vscode vagrant virtualbox docker
 
