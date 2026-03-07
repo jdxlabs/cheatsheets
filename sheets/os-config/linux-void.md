@@ -111,3 +111,35 @@ Improve the look:
 - Right-click on your panel -> Panel Preferences.
 - Increase the size (line) to approximately 36.
 - Add the "Window Buttons" plugin and configure it to display only icons.
+
+
+### Printer (for a Canon Pixma TS 5050)
+
+```bash
+sudo xbps-install -S cups cnijfilter2 hplip
+
+sudo xbps-install -S \
+    cups-filters \
+    ghostscript \
+    foomatic-db \
+    foomatic-db-engine \
+    foomatic-db-gutenprint-ppds \
+    gutenprint
+
+# start cups
+sudo ln -s /etc/sv/cupsd /var/service/
+sudo sv up cupsd
+
+# Add admin rights tu current user (and restart cups)
+sudo usermod -aG lpadmin $(whoami)
+sudo usermod -aG lp $(whoami)
+groups $(whoami)  # to check
+sudo sv restart cupsd
+
+# configure it in the ui
+http://localhost:631
+
+# config / debug
+sudo vim /etc/cups/printers.conf
+sudo tail -f /var/log/cups/error_log
+```
