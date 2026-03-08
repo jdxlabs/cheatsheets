@@ -143,3 +143,31 @@ http://localhost:631
 sudo vim /etc/cups/printers.conf
 sudo tail -f /var/log/cups/error_log
 ```
+
+
+### Install Apps with Flatpak
+
+```bash
+# install flatpak and add flathub repository
+sudo xbps-install -Sy flatpak
+sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+
+# install app
+sudo flatpak install flathub <my-app> -y
+
+# launch app
+flatpak run <my-app>
+
+# add shortcut in XFCE menu
+mkdir -p ~/.local/share/applications
+ln -s /var/lib/flatpak/app/<my-app>/current/active/export/share/applications/<my-app>.desktop \
+      ~/.local/share/applications/<my-app>.desktop
+
+# manage flatpak apps
+# cf. https://docs.flatpak.org/fr/latest/using-flatpak.html
+flatpak list
+flatpak list --app
+flatpak update
+flatpak search <my-app>
+flatpak uninstall <my-app>
+```
