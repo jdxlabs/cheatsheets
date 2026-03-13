@@ -47,6 +47,7 @@ sudo xbps-install -S xarchiver unzip 7zip
 sudo xbps-install -S void-repo-nonfree && sudo xbps-install -S unrar
 
 # dev
+sudo xbps-install -S vscode-oss
 sudo xbps-install -S sublime-text4
 sudo xbps-install -S git tree tig
 sudo xbps-install -S podman podman-compose
