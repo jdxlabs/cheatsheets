@@ -43,6 +43,12 @@ sudo apt install neofetch
 dpkg-reconfigure tzdata
 ```
 
+### Update password
+```bash
+# as the user who wants to change the password
+passwd
+```
+
 ### Add an icon for an application (ex: Postman)
 ```bash
 cat > ~/.local/share/applications/Postman.desktop <<EOL
