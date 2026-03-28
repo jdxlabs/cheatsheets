@@ -1,4 +1,4 @@
-# Windows commands tips
+# Windows commands
 
 ## PowerShell : Windows Automation Tool
 If you want to automate things under Windows there is the PowerShell language you can use,  

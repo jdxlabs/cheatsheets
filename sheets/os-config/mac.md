@@ -1,4 +1,4 @@
-# Mac tips
+# Mac shortcuts and tips
 
 ## Keyboard shortcuts for Macbook Pro
 | Action                     | Shortcut    |
