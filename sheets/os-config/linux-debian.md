@@ -87,6 +87,31 @@ unzip file.zip
 ar x dpkg_1.17.23_amd64.deb
 ```
 
+### UI Look
+
+```bash
+# Install Gnome Tweaks and Papirus icon theme
+sudo apt install gnome-tweaks
+sudo apt install papirus-icon-theme
+
+# Install Dash to Dock extension
+sudo apt install gnome-shell-extension-dash-to-dock
+
+# Install a pack of preinstalled extensions
+sudo apt install gnome-shell-extensions
+```
+
+To make the magic happen, you need to go to your Settings:
+- Go to Tweaks - Appearance
+- Icons tab: Choose Papirus-Dark.
+- To show again maximize and minimize buttons: go to Windows - Titlebar Buttons and enable "Maximize" and "Minimize".
+
+To improve the look:
+- Go to Extensions
+- Enable "Dash to Dock" and configure it to display only icons, and to hide the dock when windows are maximized.
+
+By the way, you can find the list of all the extensions on [Gnome Extensions](https://extensions.gnome.org/), and install them with `sudo apt install gnome-shell-extension-<extension-name>`.
+
 ### Useful links
 * [Debian on the Desktop](https://www.debian.org/devel/debian-desktop/index.en.html)
 * [DebianDesktopHowTo](https://wiki.debian.org/DebianDesktopHowTo)
