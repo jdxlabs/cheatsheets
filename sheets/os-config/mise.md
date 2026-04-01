@@ -20,7 +20,7 @@ mise use terraform@latest
 mise use opentofu@latest
 
 # install cloud clients
-mise use awscli@latest
+mise use aws@latest
 mise use gcloud@latest
 
 # show installed software
