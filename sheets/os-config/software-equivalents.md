@@ -12,6 +12,7 @@
 | Files compression | 7-Zip | The Unarchiver | File-roller |
 | Diff tool | Winmerge | DiffMerge | Meld |
 | CD/DVD writer | ImgBurn | Burn | Brasero |
+| Disk Usage Analyzer | Scanner2, WizTree | Disk Inventory X | Baobab, Filelight |
 
 ## Multi-platforms
 |     |     |
