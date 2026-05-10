@@ -1,4 +1,4 @@
-# Mise
+# ASDF
 
 [ASDF](https://asdf-vm.com/) is a utility to manage all your runtime versions with one tool.
 
