@@ -23,6 +23,10 @@ mise use opentofu@latest
 mise use aws@latest
 mise use gcloud@latest
 
+# uninstall
+mise uninstall node --all
+# then, remove the entry in : vim ~/.config/mise/config.toml
+
 # show installed software
 mise ls
 
