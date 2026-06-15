@@ -8,10 +8,10 @@
 | Managed Kubernetes | EKS | GKE | AKS | Kapsule | Managed Kubernetes Service |
 | PaaS | AWS Elastic Beanstalk | App Engine | Azure App Service | - | Web PaaS |
 | Containers without infrastructure | AWS AppRunner, AWS Fargate | Cloud Run | Azure Container Apps/Instance | Serverless Containers | - |
-| Hybrid Container | AWS EKS AnyWhere | Anthos, GKE Enterprise | Azure Arc | - | - |
+| Hybrid Container | AWS EKS AnyWhere | GKE Enterprise, Google Distributed Cloud | Azure Arc | - | - |
 | Platform for rapid creation of web and mobile applications | AWS Amplify | Firebase | Visual Studio App Center | - | - |
 | FaaS | AWS Lambda | Cloud Functions | Azure Functions Serverless Compute | Serverless Functions | - |
-| Container Registry | Amazon ECR | Container Registry | Azure Container Registry | Container Registry | - |
+| Container Registry | Amazon ECR | Artifact Registry | Azure Container Registry | Container Registry | - |
 | File Object storage | AWS Simple Storage Service (S3) | Cloud Storage (GCS) | Azure Blob Storage | Object Storage | Object Storage |
 | Relational Database | AWS Relational Database Service (RDS), Aurora, Neptune | Cloud SQL, Cloud Spanner, AlloyDB | Azure Database for MySQL/PostgreSQL | Database for PostgreSQL/MySQL | Cloud Databases |
 | SQL database migration | AWS Migration hub | Database Migration Service | Azure Database Migration Service | - | Database Migration Service |
@@ -53,7 +53,7 @@
 | Data workflow orchestration | Amazon Data Pipeline, AWS Glue | Cloud Composer | Azure Data Factory | - | - |
 | Data processing | AWS Elastic MapReduce (EMR) | DataProc | Azure Data Lake Analytics, HDInsight | - | Data Processing |
 | Data lake management and governance | AWS Lake Formation | Dataplex | Azure Purview | - | - |
-| IoT Platform | AWS IoT Core | Cloud IoT Core | Azure IoT Hub | IoT Hub | - |
+| IoT Platform | AWS IoT Core | Discontinued (Aug 2023) | Azure IoT Hub | IoT Hub | - |
 | Edge Computing | AWS Wavelength, Local Zones | Google Distributed Cloud Edge | Azure Stack Edge | Edge Services | - |
 | AI & Machine Learning platform | AWS SageMaker, Bedrock | Vertex AI, Dialogflow | Azure AI Platform | - | AI Platform |
 | AI & Machine Learning platform assistant | AWS SageMaker Autopilot | Vertex AI AutoML, Vertex AI custom training | AutoML, Azure Cognitive Services, Azure Machine Learning | - | - |
@@ -62,21 +62,21 @@
 | Identity and Access Management | IAM | IAM | Azure Active Directory External Identities | IAM | Identity and Access Management |
 | CIAM | AWS Cognito | Identity Platform | Azure Active Directory B2C | - | - |
 | Single Sign-On | AWS SSO (Identity Center) | Cloud Identity | Azure Active Directory | - | - |
-| Config Management | AWS System Manager | Anthos Config Management | Azure App Configuration | - | - |
+| Config Management | AWS System Manager | Config Sync (GKE Enterprise) | Azure App Configuration | - | - |
 | Security and risk management platform | AWS Guard Duty, AWS Security Hub, AWS Audit Manager, AWS Config | Security Command Center | Microsoft Defender for Cloud | - | - |
-| SIEM | AWS Security Lake | Chronicle | Azure Sentinel | - | - |
-| Security assessment tool | AWS Inspector | Google Cloud Security Command Center (Cloud SCC), Google Cloud Security Scanner | Azure Security Center | - | - |
+| SIEM | AWS Security Lake | Google Security Operations (formerly Chronicle) | Azure Sentinel | - | - |
+| Security assessment tool | AWS Inspector | Security Command Center | Azure Security Center | - | - |
 | Secret management | AWS Secrets Manager, AWS Systems Manager Parameter Store | Secret Manager | Azure Key Vault | Secret Manager | - |
 | Key Management Service | AWS KMS | Cloud KMS | Azure Key Vault | - | Key Management Service |
 | Hardware Security Module | AWS HSM | Cloud HSM | Azure Managed HSM | - | - |
-| Certificate Management | AWS Certificate Manager (ACM) | Google Cloud SSL Certificates | Azure Key Vault | - | SSL Certificates |
+| Certificate Management | AWS Certificate Manager (ACM) | Certificate Manager | Azure Key Vault | - | SSL Certificates |
 | Resources management | AWS Organizations, Resource Groups & Tag Editor | Resource Manager | Azure Management Groups | Organizations | Projects |
 | CI/CD | AWS CodeBuild, AWS CodeDeploy, AWS CodePipeline | Cloud Build | Azure DevOps, GitHub Enterprise | - | - |
-| AI Companion | Amazon CodeWhisperer, Amazon Q | Duet AI, Gemini | Copilot | - | - |
-| IaC Deployment | CloudFormation, CDK | Cloud Deployment Manager | Azure Deployment Manager | Terraform | Terraform |
+| AI Companion | Amazon CodeWhisperer, Amazon Q | Gemini for Google Cloud | Copilot | - | - |
+| IaC Deployment | CloudFormation, CDK | Infrastructure Manager | Azure Deployment Manager | Terraform | Terraform |
 | Security recommendations dashboard | Trusted Advisor | Security Command Center | Azure Advisor | - | - |
 | Dashboard for monitoring the health of services | Health Dashboard, QuickSight | Google Cloud Status | Azure Service Health | Status Page | Status |
-| Inventory of data assets | AWS Glue Data Catalog | Cloud Data Catalog | Azure Purview | - | - |
+| Inventory of data assets | AWS Glue Data Catalog | Knowledge Catalog (formerly Dataplex Universal Catalog) | Azure Purview | - | - |
 | Dedicated Servers | AWS Dedicated Hosts | Sole-tenant nodes | Azure Dedicated Host | Elastic Metal | Dedicated Servers |
 | Serverless Database | Aurora Serverless | - | Azure SQL Database Serverless | Serverless SQL Database | - |
 | Web Hosting | AWS Lightsail | - | Azure App Service | Web Hosting | Web Hosting |
