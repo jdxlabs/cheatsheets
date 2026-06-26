@@ -27,3 +27,5 @@ alias clean_tf='find . -name ".terraform" -type d -exec rm -rf {} \;'
 ## Usefull links
 * [Terraform Documentation](https://developer.hashicorp.com/terraform/docs)
 * [Terraform Best Practices](https://www.terraform-best-practices.com/)
+* [Core Terraform Workflow Overview](https://developer.hashicorp.com/terraform/intro/core-workflow)
+* [Terraform Cheatsheet - Scott Thornton](https://scthornton.github.io/cheatsheets/terraform-cheatsheet/)

@@ -28,3 +28,4 @@ cd /usr/local/lib/python3.6/dist-packages
 * [Awesome Python](https://github.com/vinta/awesome-python)
 * [Automate the Boring Stuff with Python](https://automatetheboringstuff.com)
 * [A list of free Python books](https://www.reddit.com/r/Python/comments/anfdyh/free_python_books)
+* [Python notes - Scott Thornton](https://scthornton.github.io/cheatsheets/python-notes/)
