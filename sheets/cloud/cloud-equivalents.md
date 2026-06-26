@@ -53,12 +53,13 @@
 | Data workflow orchestration | Amazon Data Pipeline, AWS Glue | Cloud Composer | Azure Data Factory | - | - |
 | Data processing | AWS Elastic MapReduce (EMR) | DataProc | Azure Data Lake Analytics, HDInsight | - | Data Processing |
 | Data lake management and governance | AWS Lake Formation | Dataplex | Azure Purview | - | - |
+| Lakehouse Storage Engine / Virtualization | AWS Lake Formation | BigLake | Azure OneLake (Fabric), Azure Synapse Serverless | - | - |
 | IoT Platform | AWS IoT Core | Discontinued (Aug 2023) | Azure IoT Hub | IoT Hub | - |
 | Edge Computing | AWS Wavelength, Local Zones | Google Distributed Cloud Edge | Azure Stack Edge | Edge Services | - |
 | AI & Machine Learning platform | AWS SageMaker, Bedrock | Vertex AI, Dialogflow | Azure AI Platform | - | AI Platform |
 | AI & Machine Learning platform assistant | AWS SageMaker Autopilot | Vertex AI AutoML, Vertex AI custom training | AutoML, Azure Cognitive Services, Azure Machine Learning | - | - |
 | Tensorflow | Tensorflow on AWS | TensorFlow Enterprise | Azure Databricks | - | - |
-| Disaster Recovery | AWS Disaster Recovery | - | Azure Site Recovery | - | Disaster Recovery Plan |
+| Disaster Recovery | AWS Disaster Recovery | Cloud Backup and DR | Azure Site Recovery | - | Disaster Recovery Plan |
 | Identity and Access Management | IAM | IAM | Azure Active Directory External Identities | IAM | Identity and Access Management |
 | CIAM | AWS Cognito | Identity Platform | Azure Active Directory B2C | - | - |
 | Single Sign-On | AWS SSO (Identity Center) | Cloud Identity | Azure Active Directory | - | - |
@@ -78,8 +79,8 @@
 | Dashboard for monitoring the health of services | Health Dashboard, QuickSight | Google Cloud Status | Azure Service Health | Status Page | Status |
 | Inventory of data assets | AWS Glue Data Catalog | Knowledge Catalog (formerly Dataplex Universal Catalog) | Azure Purview | - | - |
 | Dedicated Servers | AWS Dedicated Hosts | Sole-tenant nodes | Azure Dedicated Host | Elastic Metal | Dedicated Servers |
-| Serverless Database | Aurora Serverless | - | Azure SQL Database Serverless | Serverless SQL Database | - |
-| Web Hosting | AWS Lightsail | - | Azure App Service | Web Hosting | Web Hosting |
+| Serverless Database | Aurora Serverless | Firestore, Cloud Spanner (Autoscaling) | Azure SQL Database Serverless | Serverless SQL Database | - |
+| Web Hosting | AWS Lightsail | Firebase Hosting | Azure App Service | Web Hosting | Web Hosting |
 | Trusted cloud (for France) | AWS European Sovereign Cloud (partnership with Germany) | S3NS (by Thales) | Bleu (by Capgemini & Orange) | SecNumCloud qualified | SecNumCloud qualified |
 
 
