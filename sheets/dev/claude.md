@@ -18,3 +18,9 @@ Pertinent first questions to ask Claude when coming on a new repository :
 * What are the main components of the codebase?
 * Are there any specific coding conventions or best practices I should follow?
 
+
+To globally ignore Claude settings in Git, add the following to your configuration:
+```
+» cat /home/user/.config/git/ignore
+**/.claude/settings.local.json
+```
