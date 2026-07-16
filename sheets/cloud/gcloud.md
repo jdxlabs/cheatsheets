@@ -5,18 +5,18 @@
 First, install the client
 
 ```bash
-brew install gcloud
+mise use gcloud@latest
 ```
 
 ## Login
 
 ```bash
 gcloud auth list
-gcloud auth login
+gcloud auth login --no-launch-browser
 
 # for Terraform, or other apps
 gcloud auth application-default list
-gcloud auth application-default login
+gcloud auth application-default login --no-launch-browser
 
 gcloud config configurations list
 gcloud config configurations activate <wanted-config>
