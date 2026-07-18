@@ -15,12 +15,12 @@
 | File Object storage | AWS Simple Storage Service (S3) | Cloud Storage (GCS) | Azure Blob Storage | Object Storage | Object Storage |
 | Relational Database | AWS Relational Database Service (RDS), Aurora, Neptune | Cloud SQL, Cloud Spanner, AlloyDB | Azure Database for MySQL/PostgreSQL | Database for PostgreSQL/MySQL | Cloud Databases |
 | SQL database migration | AWS Migration hub | Database Migration Service | Azure Database Migration Service | - | Database Migration Service |
-| NoSQL | AWS DynamoDB, AWS DocumentDB | Firestore, Datastore, Bigtable | Azure Cosmos DB | - | MongoDB |
+| NoSQL | AWS DynamoDB, AWS DocumentDB | Firestore, Datastore, Bigtable | Azure Cosmos DB | Managed MongoDB | MongoDB |
 | In-Memory Data Storage | Amazon ElastiCache | Memorystore | Azure Cache | Database for Redis | Redis |
 | Backups | AWS Backup | Cloud Storage Object Versioning and Lifecycle Management | Azure Backup | Backup services | Backup Storage |
 | API Management | AWS API Gateway, AWS Publisher Service | API Gateway, Apigee API Management | Azure API Management | API Gateway | API Gateway |
 | Cost Management | AWS Cost Explorer, AWS Budgets | Billing, FinOps Hub | Azure Cost Management | Billing | Control Panel Billing |
-| Logging | CloudWatch Logs | Cloud Logging | Azure Monitoring Logs | Cockpit Logs | Logs Data Platform |
+| Logging | CloudWatch Logs | Cloud Logging | Azure Monitoring Logs | Cockpit Logs, Cloud Essentials for OpenSearch | Logs Data Platform |
 | Monitoring | CloudWatch | Cloud Monitoring | Azure Monitoring | Cockpit/Monitoring | Metrics |
 | Audit logs | AWS CloudTrail | Cloud Audit Logs | Azure Audit Logs | - | Audit Logs |
 | Tracing | AWS X-Ray | Cloud Trace | Azure Monitor Application Insights Distributed Tracing | - | - |
@@ -46,12 +46,12 @@
 | Messaging | SNS, SQS, Amazon MQ | Pub/Sub | Azure Service Bus Messaging | Messaging and Queuing/SQS NATS | - |
 | Asynchronous service requests | AWS EventBridge, AWS Notification Service (SNS) | Cloud Tasks | Azure Service Bus, Azure Storage Queues | - | - |
 | Event Streaming | Amazon Kinesis, MSK | Pub/Sub | Azure Event Hubs | - | - |
-| Data storage | Athena, Redshift | BigQuery | Azure Synapse Analytics | - | Analytics Data Platform |
-| Query Service | Amazon Redshift Spectrum | BigQuery | Azure Synapse Analytics | - | - |
+| Data storage | Athena, Redshift | BigQuery | Azure Synapse Analytics | Data Warehouse for ClickHouse | Analytics Data Platform |
+| Query Service | Amazon Redshift Spectrum | BigQuery | Azure Synapse Analytics | Data Warehouse for ClickHouse | Analytics Data Platform |
 | Stream data processing | AWS Kinesis | Dataflow | Azure Stream Analytics | - | - |
 | Stream data ingest | AWS Kinesis | Pub/Sub | Azure Events Hubs | - | - |
 | Data workflow orchestration | Amazon Data Pipeline, AWS Glue | Cloud Composer | Azure Data Factory | - | - |
-| Data processing | AWS Elastic MapReduce (EMR) | DataProc | Azure Data Lake Analytics, HDInsight | - | Data Processing |
+| Data processing | AWS Elastic MapReduce (EMR) | DataProc | Azure Data Lake Analytics, HDInsight | Clusters for Apache Spark | Data Processing |
 | Data lake management and governance | AWS Lake Formation | Dataplex | Azure Purview | - | - |
 | Lakehouse Storage Engine / Virtualization | AWS Lake Formation | BigLake | Azure OneLake (Fabric), Azure Synapse Serverless | - | - |
 | IoT Platform | AWS IoT Core | Discontinued (Aug 2023) | Azure IoT Hub | IoT Hub | - |
