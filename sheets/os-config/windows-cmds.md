@@ -41,15 +41,20 @@ choco install -y reaper guitar-pro obs-studio shotcut
 # uninstall packages
 choco uninstall shotcut
 
+# show installed packages
+choco list
+
 # show outdated packages
 choco outdated
 
 # upgrades
 choco upgrade chocolatey
 choco upgrade cpu-z
+choco upgrade GoogleChrome -y --ignore-checksums
 
 # upgrade all outdated packages
 choco upgrade all
+choco upgrade all -y --ignore-checksums
 ```
 
 ### Dev tools
