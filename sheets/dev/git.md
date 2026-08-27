@@ -88,6 +88,22 @@ git push origin master #push into master branch
 git push
 ```
 
+### Merge
+```bash
+# Merges mybranch, in my current branch:
+git merge mybranch
+```
+
+### Rebase
+```bash
+# Rebases modifications from main in my current branc:
+git rebase -i origin/main
+
+# handle conflicts (if needed)
+git add .
+git rebase --continue
+```
+
 
 ## Undo Commands
 
