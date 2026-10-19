@@ -223,3 +223,4 @@ tig
 * [Learn git concepts, not commands](https://dev.to/unseenwizzard/learn-git-concepts-not-commands-4gjc)
 * [Code Review Developer Guide](https://google.github.io/eng-practices/review)
 * [Git Submodule Cheatsheet](https://medium.com/faun/git-submodule-cheatsheet-29a3bfe443c3)
+* [Git Animated Cheat Sheet](https://initialcommit.com/learn/git/animated-cheat-sheet)
