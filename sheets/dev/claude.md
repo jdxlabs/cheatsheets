@@ -29,3 +29,7 @@ To globally ignore Claude settings in Git, add the following to your configurati
 » cat /home/user/.config/git/ignore
 **/.claude/settings.local.json
 ```
+
+## Useful links
+* [Claude documentation](https://docs.anthropic.com/en)
+* [Claude Academy](https://academy.claude.com)
