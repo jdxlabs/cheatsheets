@@ -1,11 +1,16 @@
 # Claude
 
+To install Claude Cli :
+```bash
+mise install claude@latest
+mise use claude@latest
+```
 
 To save Token, configure it with a low effort model by default. You can change it later in the settings.
 ```
 # ~/.claude/settings.json
 {
-    "model": "claude-sonnet-4-6",
+    "model": "claude-sonnet-5-5",
     "effortLevel": "low"
 }
 ```
