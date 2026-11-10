@@ -17,6 +17,12 @@ To delimiter ressources use :
 [wsl2]
 memory=4GB
 processors=4
+
+networkingMode=mirrored
+firewall=false
+
+[experimental]
+autoMemoryReclaim=DropCache
 ```
 
 To handle chmod :
