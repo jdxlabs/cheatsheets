@@ -21,6 +21,7 @@
 | Office | LibreOffice |
 | Media reader | VLC |
 | Images reader | XnViewMP |
+| Markdown editor | Marktext |
 | Photo editor | Gimp, Krita, Affinity Photo |
 | Audio editor | Reaper, Audacity, Ableton Live, Cubase, Logic Pro |
 | Video editor | Kdenlive, DaVinci Resolve, Shotcut |
